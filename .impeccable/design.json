@@ -175,12 +175,20 @@
       "css": ".ds-btn-dark{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:var(--white);background:var(--ink);border:1px solid var(--ink);border-radius:6px;cursor:pointer;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;transition:background .2s,color .2s,border-color .2s}.ds-btn-dark:hover{background:#244a72}.ds-btn-dark:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
     },
     {
-      "name": "WhatsApp Share Button",
+      "name": "WhatsApp Contact Button",
       "kind": "button",
       "refersTo": "button-whatsapp",
-      "description": "Deep-green user-initiated share action that opens WhatsApp with a localized product introduction or generated brief; no manufacturer number is implied when the channel is empty.",
-      "html": "<a class=\"ds-btn-whatsapp\" href=\"https://wa.me/?text=TTK-3700E\" target=\"_blank\" rel=\"noopener\">Share via WhatsApp</a>",
+      "description": "Deep-green user-initiated contact action that opens a direct WhatsApp chat with +8613380262499 and carries a localized product introduction or generated brief.",
+      "html": "<a class=\"ds-btn-whatsapp\" href=\"https://wa.me/8613380262499?text=TTK-3700E\" target=\"_blank\" rel=\"noopener\">Chat via WhatsApp</a>",
       "css": ".ds-btn-whatsapp{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:#ffffff;background:#147d64;border:1px solid #147d64;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,border-color .2s}.ds-btn-whatsapp:hover{background:#0f684f;border-color:#0f684f}.ds-btn-whatsapp:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}"
+    },
+    {
+      "name": "Email Brief Button",
+      "kind": "button",
+      "refersTo": "button-email",
+      "description": "Cobalt mailto action that opens a local draft addressed to carwyn910@gmail.com with the generated brief; no server-side delivery or sent state is claimed.",
+      "html": "<a class=\"ds-btn-email\" href=\"mailto:carwyn910@gmail.com?subject=TTK-3700E%20brief\">Send by email</a>",
+      "css": ".ds-btn-email{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:#ffffff;background:#1565d8;border:1px solid #1565d8;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,border-color .2s}.ds-btn-email:hover{background:#0d51b1;border-color:#0d51b1}.ds-btn-email:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}"
     },
     {
       "name": "Section Navigation",

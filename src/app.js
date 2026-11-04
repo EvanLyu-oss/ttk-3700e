@@ -94,6 +94,7 @@ const output = document.querySelector('#brief-output');
 const copyButton = document.querySelector('#copy-brief');
 const copyStatus = document.querySelector('#copy-status');
 const whatsappBrief = document.querySelector('#whatsapp-brief');
+const emailBrief = document.querySelector('#email-brief');
 const configElement = document.querySelector('#brief-config');
 const config = configElement ? JSON.parse(configElement.textContent) : null;
 
@@ -123,6 +124,11 @@ form?.addEventListener('submit', (event) => {
   if (whatsappBrief) {
     const number = (config.whatsappNumber || '').replace(/\D/g, '');
     whatsappBrief.href = `https://wa.me/${number}?text=${encodeURIComponent(output.value)}`;
+  }
+  if (emailBrief) {
+    const subject = encodeURIComponent(config.briefTitle);
+    const body = encodeURIComponent(output.value);
+    emailBrief.href = `mailto:${config.email}?subject=${subject}&body=${body}`;
   }
   copyStatus.textContent = '';
   result.hidden = false;

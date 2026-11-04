@@ -36,7 +36,7 @@ Visitors browse product fundamentals, application scenarios, measured performanc
 - Food flexible packaging and medical packaging may be discussed only as industry needs with explicit qualification boundaries, never as approved uses.
 - Test results apply to the submitted sample and report scope. ND means below the method detection limit, not absolute zero; SGS reports are not certifications.
 - The Chinese and English TDS moisture specifications differ and must not be silently unified.
-- A public domain and an inquiry receiving channel remain undecided.
+- The current public deployment is `https://evanlyu-oss.github.io/ttk-3700e/`; no custom domain is configured. Confirmed contact channels are WhatsApp `+8613380262499` and email `carwyn910@gmail.com`. WhatsApp opens a direct chat and email opens a prefilled local draft; neither provides backend delivery or automatic submission.
 
 ## Brand Commitments
 
