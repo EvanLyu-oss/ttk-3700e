@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "title": "TTK-3700E 无氟 PPA 加工母粒 | POLYTREND 聚能产研",
+    "description": "了解有机硅体系无氟 PPA 母粒 TTK-3700E：聚烯烃挤出应用、薄膜性能数据、SGS 检测报告与中英文技术资料。"
+  },
+  "languageLabel": "选择语言",
+  "nav": {
+    "product": "产品",
+    "applications": "应用场景",
+    "performance": "性能实测",
+    "resources": "技术资料",
+    "contact": "生成技术需求",
+    "menu": "菜单"
+  },
+  "hero": {
+    "eyebrow": "TTK-3700E / 有机硅体系无氟 PPA 母粒",
+    "title": ["让挤出更顺畅。", "让配方告别含氟。"],
+    "intro": "以 LDPE 为载体的无氟聚合物加工助剂母粒，助力减少聚烯烃挤出中的模口积料与熔体破裂。",
+    "primaryCta": "探索应用场景",
+    "secondaryCta": "下载技术资料",
+    "reportBadge": "第三方检测，结果有据可查。",
+    "visualAlt": "母粒经过挤出机形成平整薄膜的示意图",
+    "visualKicker": "从母粒到薄膜",
+    "visualCaption": "以有机硅技术路线，支持更稳定的挤出加工。",
+    "metrics": [
+      { "value": "5.00%", "label": "有效成分" },
+      { "value": "LDPE", "label": "载体树脂" },
+      { "value": "0.5–2.0%", "label": "性能表建议用量" },
+      { "value": "25 kg", "label": "包装规格" }
+    ]
+  },
+  "proof": ["无 PFAS 配方体系", "SGS 检测报告", "面向工业挤出应用"],
+  "product": {
+    "kicker": "01 / 产品基础",
+    "title": "提升加工效率，兼顾薄膜本体性能。",
+    "intro": "加工助剂应解决模头处的问题，而不是给薄膜带来新的问题。TTK-3700E 兼顾润滑加工与实测光学、力学性能。",
+    "benefits": [
+      { "title": "控制模口积料", "text": "助力减少薄膜挤出中的模口堆积与鲨鱼纹，获得更平整、稳定的膜面。" },
+      { "title": "支持高效生产", "text": "通过润滑减少设备磨损与维护需求，支持更稳定的挤出过程。" },
+      { "title": "替代传统含氟 PPA", "text": "有机硅无氟配方体系，以总氟筛查和靶向 PFAS 分析提供检测依据。" }
+    ],
+    "specsTitle": "产品技术档案",
+    "specsNote": "来源：TTK-3700E 技术数据表",
+    "specs": [
+      { "label": "外观", "value": "乳白色颗粒" },
+      { "label": "载体树脂", "value": "LDPE" },
+      { "label": "有效成分", "value": "5.00%" },
+      { "label": "熔融指数 · 190 ℃ / 2.16 kg", "value": "5–10 g/10min" },
+      { "label": "堆密度", "value": "0.45–0.55 g/cm³" },
+      { "label": "质量标准", "value": "Q/JN 001-2024" }
+    ],
+    "dosageKicker": "添加量 / 使用起点",
+    "dosageTitle": "从经验证的常用区间开始。",
+    "dosageValue": "0.5–2.0%",
+    "dosageLabel": "性能数据表建议添加量",
+    "dosageTds": "技术数据表（TDS）给出的宽范围为 0.5–5%。",
+    "dosageNote": "如有印刷、热封要求：从 2% 起始添加，运行不少于 2 小时，再根据膜面情况调整。",
+    "dosageLink": "查看使用指南"
+  },
+  "applications": {
+    "kicker": "02 / 应用视角",
+    "title": "同一种材料，应对不同薄膜挑战。",
+    "intro": "从工艺需求出发，了解四类薄膜细分市场。优先级综合技术匹配度与合规准备度，不代表已取得所有终端用途认证。",
+    "tabsLabel": "薄膜应用领域",
+    "scenes": {
+      "hygiene": {
+        "tab": "卫材",
+        "status": "优先落地",
+        "title": "面向卫生用品的透气薄膜。",
+        "description": "高填充 PE 透气膜对模口洁净和薄壁挤出稳定性要求高，正是 PPA 润滑价值容易发挥的工艺环节。",
+        "note": "适合作为优先评估领域：不涉及食品或药液接触声明，终端产品的具体要求仍需逐项验证。",
+        "focusLabel": "工艺关注点",
+        "focus": ["高填充体系", "流延透气膜", "模口积料控制"],
+        "products": [
+          { "name": "纸尿裤 / 拉拉裤", "detail": "PE + CaCO₃ 高填充流延透气底膜、腰围膜" },
+          { "name": "卫生巾 / 护垫", "detail": "底膜与单片包膜" },
+          { "name": "成人失禁用品", "detail": "薄型、稳定的 PE 底膜" },
+          { "name": "护理垫 / 宠物垫", "detail": "底层防漏 PE 流延膜" },
+          { "name": "医用防护", "detail": "与纺粘材料复合的防护服、隔离衣透气膜" }
+        ]
+      },
+      "protective": {
+        "tab": "保护膜",
+        "status": "优先落地",
+        "title": "保护每一寸表面，从膜面质量开始。",
+        "description": "自粘膜和涂胶基材上的表面缺陷，可能转化为被贴产品上的压痕。挤出稳定性与晶点控制尤为关键。",
+        "note": "与 EVA、聚异丁烯等增粘体系的相容性，需要通过实际生产试验确认。",
+        "focusLabel": "工艺关注点",
+        "focus": ["晶点敏感表面", "PE 吹膜 / 流延", "外观洁净度"],
+        "products": [
+          { "name": "建材保护膜", "detail": "铝型材、不锈钢板、彩涂板与塑钢门窗" },
+          { "name": "家电面板膜", "detail": "冰箱、洗衣机、空调等外观表面" },
+          { "name": "电子 / 光学膜", "detail": "屏幕、镜片、扩散板的高洁净保护膜" },
+          { "name": "玻璃 / 亚克力", "detail": "板材的临时表面保护" },
+          { "name": "汽车运输膜", "detail": "漆面与内饰件的运输保护" }
+        ]
+      },
+      "food": {
+        "tab": "食品软包",
+        "status": "须先核验准入",
+        "title": "食品软包，必须先回答合规问题。",
+        "description": "零食、液体、冷冻食品及重包装的 PE 热封层，面临高速挤出和模口积料等共性工艺挑战。",
+        "note": "重要：现行 TDS 明确声明 TTK-3700E 不适用于食品接触。这里展示的是行业需求，不是已获批用途；没有厂家认可的合规依据，不得将本产品用于食品接触包装。",
+        "focusLabel": "行业工艺背景",
+        "focus": ["高速挤出", "PE 热封层", "法规准入门槛"],
+        "products": [
+          { "name": "休闲零食袋", "detail": "BOPP/PE、PET/PE 复合结构" },
+          { "name": "液体 / 酱料袋", "detail": "带较厚 PE 热封层的多层复合膜" },
+          { "name": "冷冻食品袋", "detail": "低温使用的 PA/PE 结构" },
+          { "name": "乳品包装", "detail": "PE 三层共挤吹膜" },
+          { "name": "米面粮油重包装", "detail": "FFS 与大规格包装袋用 PE 吹膜" }
+        ]
+      },
+      "medical": {
+        "tab": "医用包材",
+        "status": "需专项验证",
+        "title": "医用包材，是一套独立的专业体系。",
+        "description": "灭菌屏障袋和药品包装，需要系统验证迁移、封口和灭菌适应性等性能。",
+        "note": "TDS 排除的是医疗植入用途；外部包装不等同于植入物，但本网站不作医用包材准入声明。ISO 11607、药包材及具体产品要求仍须专项核验。",
+        "focusLabel": "准入验证背景",
+        "focus": ["灭菌屏障系统", "封口完整性", "专项合规验证"],
+        "products": [
+          { "name": "医疗器械灭菌袋", "detail": "PE/PA 复合膜配医用纸或特卫强" },
+          { "name": "顶头袋 / 中封袋", "detail": "器械包装用 PE/PA 复合膜" },
+          { "name": "药品软包装", "detail": "高阻隔、低迁移复合结构" },
+          { "name": "诊断试剂包装", "detail": "防潮阻隔与污染控制薄膜" },
+          { "name": "医用敷料包装", "detail": "PE 膜与纸塑包装袋" }
+        ]
+      }
+    },
+    "otherTitle": "薄膜之外",
+    "other": [
+      { "title": "管材挤出", "text": "TDS 所列用途：改善成型稳定性，减少模口积料。" },
+      { "title": "线材 / 线缆", "text": "TDS 所列用途：改善表面质量与加工稳定性。" }
+    ]
+  },
+  "performance": {
+    "kicker": "03 / 性能实测",
+    "title": "让加工更顺畅，不让薄膜性能让步。",
+    "intro": "用数据检验产品价值：30 天电晕保持，以及 1% 添加量下的薄膜性能对比。",
+    "chartTitle": "电晕保持曲线",
+    "chartSubtitle": "PE 薄膜 · mN/m · 30 天",
+    "chartDescription": "TDS 中，1% TTK-3700E 与 3% 对比样品的报告数值一致：初始为 45，第 7 至第 30 天保持 40 mN/m。",
+    "daysLabel": "下机后天数",
+    "dyneLabel": "表面张力（mN/m）",
+    "productLegend": "TTK-3700E · 1%",
+    "comparatorLegend": "对比样品 · 3%",
+    "chartDataSummary": "查看图表数值",
+    "dayLabel": "天数",
+    "initialLabel": "下机",
+    "resultValue": "40 mN/m",
+    "resultLabel": "第 30 天仍保持的电晕值",
+    "resultNote": "TDS 报告：1% TTK-3700E 与 3% 对比样品均达到此数值。",
+    "metricsTitle": "薄膜性能速览",
+    "before": "未添加原膜",
+    "after": "添加 1% TTK-3700E",
+    "metrics": [
+      { "label": "透光率", "before": "90.30", "after": "90.50", "unit": "%" },
+      { "label": "雾度", "before": "5.08", "after": "5.06", "unit": "%" },
+      { "label": "冲击破损质量", "before": "67", "after": "66", "unit": "g" }
+    ],
+    "conditions": "性能表测试条件：30 μm 吹膜，25 ℃，相对湿度 50%。测试方法：GB/T 2410-08、GB 9639-88。",
+    "conclusion": "在报告测试条件下，光学、力学、热封与摩擦性能与原膜基本相当。实际结果取决于具体配方与工艺，需自行验证。"
+  },
+  "compliance": {
+    "kicker": "04 / 检测依据",
+    "title": "产品主张，更要有文件支撑。",
+    "intro": "三份 SGS 报告覆盖总氟筛查、671 项靶向 PFAS 和 RoHS 10 项受限物质，均针对同一批次送检样品出具。",
+    "cards": [
+      { "id": "pfas", "metric": "671", "title": "项靶向 PFAS", "result": "报告清单内全部 ND", "method": "优化的 EN 17681-1:2025 · LC/GC-MS 方法", "link": "查看报告" },
+      { "id": "fluorine", "metric": "ND", "title": "总氟筛查", "result": "低于 20 mg/kg 检出限 · 限值 50 mg/kg", "method": "EN 14582:2016 · 离子色谱", "link": "查看报告" },
+      { "id": "rohs", "metric": "10 / ND", "title": "RoHS 受限物质", "result": "符合 · 10 项均未检出", "method": "IEC 62321 系列 · ICP-OES/AAS、UV-Vis、GC-MS", "link": "查看报告" }
+    ],
+    "declarationTitle": "TDS 同时声明",
+    "declarations": ["REACH (EC) 1907/2006", "不含 SVHC", "Q/JN 001-2024 企业标准"],
+    "noteTitle": "正确理解 ND。",
+    "note": "ND 指低于方法检出限，并非绝对为零。结果仅对送检样品和报告范围负责。这些文件是检测报告，不等于产品认证或所有终端市场的准入批准。"
+  },
+  "process": {
+    "kicker": "05 / 上机使用",
+    "title": "从清洁开始，以膜面为准。",
+    "intro": "以性能数据表为起点，再根据设备、线速度、温度和实际膜面效果调整。",
+    "steps": [
+      { "title": "洗机与清理", "text": "使用前以洗机料充分清洗机台，并清理干净模头。" },
+      { "title": "按比例混合", "text": "与相容树脂按选定比例混合后直接挤出；混合后建议 24 小时内使用。" },
+      { "title": "让产线起效", "text": "如有印刷或热封要求，从 2% 起始添加，并运行不少于 2 小时。" },
+      { "title": "按效果优化", "text": "观察膜面，结合实际工艺调整添加量，并通过自有试验确认后续加工性能。" }
+    ],
+    "packTitle": "包装与储存",
+    "pack": [
+      { "value": "25 kg", "label": "复合纸塑包装" },
+      { "value": "12 个月", "label": "推荐储存条件下保质期" },
+      { "value": "阴凉干燥", "label": "避免阳光直射、雨淋与污染" }
+    ],
+    "note": "仅供工业应用。投入生产前，请确认其对目标配方和最终用途的适用性。"
+  },
+  "resources": {
+    "kicker": "06 / 技术资料库",
+    "title": "把完整技术档案带走。",
+    "intro": "中英文产品文档与 SGS 检测原件，便于内部评估与采购审核。",
+    "primaryBadge": "核心产品文档",
+    "tdsTitle": "技术数据表（TDS）",
+    "tdsDescription": "物性参数、推荐用量、加工指南、电晕数据、包装储存与安全信息。",
+    "performanceTitle": "性能数据表",
+    "performanceDescription": "薄膜性能对比、电晕衰减与起始添加量指南。",
+    "download": "下载",
+    "downloadEn": "English PDF",
+    "downloadCn": "中文 PDF",
+    "reportsTitle": "SGS 检测报告",
+    "dateLabel": "出具日期",
+    "sourceNoteTitle": "原始资料与规格说明",
+    "sourceNote": "中文 TDS 水分指标为 <500 ppm，英文 TDS 为 ≤2000 ppm，两份原始资料存在差异。采购前请与厂家确认当前有效规格。PDF 保留原有中文或英文，不提供其他语言的改写版本。",
+    "safetyTitle": "用途边界",
+    "safety": "仅供工业应用，不适用于食品接触和医疗植入用途。"
+  },
+  "contact": {
+    "kicker": "07 / 技术需求清单",
+    "title": "从实际工艺开始讨论。",
+    "intro": "整理一份简明技术需求，通过您常用的渠道发给 POLYTREND 联系人。写清膜结构、设备与加工难点，让技术沟通更高效。",
+    "companyLabel": "制造商",
+    "manufacturer": "佛山市聚能产研新材料有限公司",
+    "formTitle": "生成技术需求清单",
+    "name": "姓名",
+    "namePlaceholder": "您的姓名",
+    "company": "公司",
+    "companyPlaceholder": "公司名称",
+    "region": "国家 / 地区",
+    "regionPlaceholder": "例如：中国",
+    "application": "应用领域",
+    "process": "加工工艺",
+    "resin": "树脂体系",
+    "resinPlaceholder": "例如：PE 共混体系",
+    "challenge": "加工难点",
+    "challengePlaceholder": "模口积料、鲨鱼纹、目标膜结构、产线条件……",
+    "optional": "选填",
+    "selectOption": "请选择",
+    "processOptions": {
+      "blown": "吹膜",
+      "cast": "流延膜",
+      "pipe": "管材挤出",
+      "wire": "线材 / 线缆",
+      "other": "其他"
+    },
+    "submit": "生成需求清单",
+    "privacy": "本页面不会发送或保存信息。生成摘要后，请复制到您常用的联络渠道。",
+    "resultTitle": "需求清单已生成",
+    "copy": "复制清单",
+    "copied": "已复制到剪贴板。",
+    "copyFallback": "请选中文字并手动复制。",
+    "applicationNote": "应用提示",
+    "briefTitle": "TTK-3700E — 技术需求清单",
+    "generatedNote": "本地生成，尚未发送。"
+  },
+  "footer": {
+    "tagline": "无氟聚合物加工助剂母粒。",
+    "copyright": "© 2026 佛山市聚能产研新材料有限公司",
+    "backToTop": "返回顶部"
+  }
+}

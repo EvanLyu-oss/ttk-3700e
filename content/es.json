@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "title": "TTK-3700E, masterbatch PPA sin PFAS | POLYTREND",
+    "description": "Conozca TTK-3700E, un masterbatch PPA sin PFAS a base de silicona para extrusión de poliolefinas, con datos de película e informes SGS."
+  },
+  "languageLabel": "Seleccionar idioma",
+  "nav": {
+    "product": "Producto",
+    "applications": "Aplicaciones",
+    "performance": "Rendimiento",
+    "resources": "Documentos",
+    "contact": "Crear consulta",
+    "menu": "Menú"
+  },
+  "hero": {
+    "eyebrow": "TTK-3700E / MASTERBATCH PPA A BASE DE SILICONA",
+    "title": ["Extrusión más uniforme.", "Sin flúor."],
+    "intro": "Masterbatch coadyuvante de procesamiento sin PFAS con vehículo LDPE, diseñado para reducir la acumulación en el cabezal y la rotura de fundido en la extrusión de poliolefinas.",
+    "primaryCta": "Explorar aplicaciones",
+    "secondaryCta": "Descargar datos técnicos",
+    "reportBadge": "Ensayos independientes. Resultados documentados.",
+    "visualAlt": "Ilustración de gránulos que pasan por una extrusora para formar una película uniforme",
+    "visualKicker": "DEL GRÁNULO A LA PELÍCULA",
+    "visualCaption": "Una solución a base de silicona para un procesamiento más estable.",
+    "metrics": [
+      { "value": "5,00 %", "label": "Contenido activo" },
+      { "value": "LDPE", "label": "Resina vehículo" },
+      { "value": "0,5–2,0 %", "label": "Guía de rendimiento" },
+      { "value": "25 kg", "label": "Presentación" }
+    ]
+  },
+  "proof": ["Formulación sin PFAS", "Informes de ensayo SGS", "Para extrusión industrial"],
+  "product": {
+    "kicker": "01 / EL MATERIAL",
+    "title": "Eficiencia de procesamiento. Propiedades de la película en equilibrio.",
+    "intro": "Un coadyuvante debe resolver problemas en el cabezal, no crear otros en la película. TTK-3700E combina lubricación con propiedades ópticas y mecánicas medidas.",
+    "benefits": [
+      { "title": "Control de la acumulación", "text": "Ayuda a reducir los depósitos en el cabezal y la piel de tiburón, logrando una superficie más lisa y uniforme." },
+      { "title": "Apoyo a una producción eficiente", "text": "La lubricación ayuda a reducir el desgaste del equipo y el mantenimiento, favoreciendo una extrusión más estable." },
+      { "title": "Alternativa al PPA fluorado", "text": "Formulación a base de silicona y sin PFAS, respaldada por análisis de flúor total y de PFAS específicos." }
+    ],
+    "specsTitle": "Ficha técnica del material",
+    "specsNote": "Fuente: ficha técnica TTK-3700E",
+    "specs": [
+      { "label": "Aspecto", "value": "Gránulos blanco lechoso" },
+      { "label": "Resina vehículo", "value": "LDPE" },
+      { "label": "Contenido activo", "value": "5,00 %" },
+      { "label": "Índice de fluidez · 190 °C / 2,16 kg", "value": "5–10 g/10 min" },
+      { "label": "Densidad aparente", "value": "0,45–0,55 g/cm³" },
+      { "label": "Norma de calidad", "value": "Q/JN 001-2024" }
+    ],
+    "dosageKicker": "DOSIFICACIÓN / PUNTO DE PARTIDA",
+    "dosageTitle": "Un intervalo de trabajo práctico.",
+    "dosageValue": "0,5–2,0 %",
+    "dosageLabel": "Recomendado en la hoja de rendimiento",
+    "dosageTds": "La ficha técnica indica un intervalo más amplio del 0,5–5 %.",
+    "dosageNote": "Para impresión o termosellado: comience con un 2 %, procese durante al menos 2 horas y ajuste según la superficie de la película.",
+    "dosageLink": "Ver guía de procesamiento"
+  },
+  "applications": {
+    "kicker": "02 / PERSPECTIVA DE APLICACIÓN",
+    "title": "Un material. Distintos retos para cada película.",
+    "intro": "Explore cuatro sectores desde sus necesidades de proceso. La prioridad refleja la adecuación técnica y regulatoria, no una certificación para todos los usos finales.",
+    "tabsLabel": "Sectores de aplicación de películas",
+    "scenes": {
+      "hygiene": {
+        "tab": "Higiene",
+        "status": "Aplicación prioritaria",
+        "title": "Películas transpirables para productos de higiene.",
+        "description": "Las películas PE transpirables con alta carga mineral exigen limpieza del cabezal y estabilidad en espesores reducidos. Aquí la lubricación PPA tiene una función clara.",
+        "note": "Un primer campo de evaluación práctico: no implica declaraciones de contacto con alimentos o medicamentos. Siguen aplicándose los requisitos del producto final.",
+        "focusLabel": "ENFOQUE DE PROCESO",
+        "focus": ["Alta carga mineral", "Película transpirable de cast", "Control de depósitos"],
+        "products": [
+          { "name": "Lámina posterior de pañales", "detail": "Película transpirable de cast PE + CaCO₃" },
+          { "name": "Películas de higiene femenina", "detail": "Láminas posteriores y envoltorios individuales" },
+          { "name": "Productos para incontinencia adulta", "detail": "Lámina posterior PE fina y estable" },
+          { "name": "Empapadores y protectores para mascotas", "detail": "Películas de cast PE como barrera antifugas" },
+          { "name": "Ropa de protección", "detail": "Película transpirable para laminación con no tejido" }
+        ]
+      },
+      "protective": {
+        "tab": "Película protectora",
+        "status": "Aplicación prioritaria",
+        "title": "Protección superficial hasta en el acabado.",
+        "description": "En películas PE autoadhesivas o con adhesivo, los defectos superficiales pueden dejar marcas en el producto protegido. La estabilidad y el control de geles son esenciales.",
+        "note": "La compatibilidad con EVA, poliisobutileno y otros sistemas tackificantes debe verificarse mediante pruebas de producción.",
+        "focusLabel": "ENFOQUE DE PROCESO",
+        "focus": ["Superficies sensibles a geles", "PE soplado y cast", "Apariencia limpia"],
+        "products": [
+          { "name": "Materiales de construcción", "detail": "Películas para perfiles de aluminio, acero inoxidable y recubierto" },
+          { "name": "Paneles de electrodomésticos", "detail": "Protección de superficies visibles del hogar" },
+          { "name": "Electrónica y óptica", "detail": "Películas de alta limpieza para pantallas, lentes y difusores" },
+          { "name": "Vidrio y acrílico", "detail": "Protección temporal de superficies de placas" },
+          { "name": "Transporte de automóviles", "detail": "Películas para piezas pintadas y molduras interiores" }
+        ]
+      },
+      "food": {
+        "tab": "Envase flexible de alimentos",
+        "status": "Verificación de idoneidad obligatoria",
+        "title": "El envase flexible exige priorizar el cumplimiento.",
+        "description": "Las capas sellantes PE para snacks, líquidos, congelados y envases de gran formato afrontan retos de extrusión a alta velocidad y acumulación en el cabezal.",
+        "note": "Importante: la ficha técnica actual indica que TTK-3700E no es apto para contacto alimentario. Son necesidades del sector, no usos finales aprobados. No especifique este producto para envases de contacto alimentario sin una base de conformidad aprobada por el fabricante.",
+        "focusLabel": "CONTEXTO DE PROCESO",
+        "focus": ["Extrusión de alta velocidad", "Capas sellantes PE", "Requisito normativo"],
+        "products": [
+          { "name": "Snacks y alimentos secos", "detail": "Laminados BOPP/PE y PET/PE" },
+          { "name": "Bolsas para líquidos y salsas", "detail": "Películas multicapa con sellante PE más grueso" },
+          { "name": "Alimentos congelados", "detail": "Estructuras PA/PE para baja temperatura" },
+          { "name": "Envases lácteos", "detail": "Películas PE coextruidas de tres capas" },
+          { "name": "Envases de gran formato", "detail": "Películas PE sopladas para FFS y sacos grandes" }
+        ]
+      },
+      "medical": {
+        "tab": "Envase médico",
+        "status": "Cualificación especializada",
+        "title": "El envase médico es una disciplina independiente.",
+        "description": "Las bolsas de barrera estéril y el envase farmacéutico requieren un control de la migración, el sellado y la esterilización.",
+        "note": "La ficha técnica excluye el uso en implantes médicos. Un envase externo no es un implante, pero aquí no se declara ninguna aprobación para envase médico. ISO 11607, farmacopea y requisitos específicos deben verificarse por separado.",
+        "focusLabel": "CONTEXTO DE CUALIFICACIÓN",
+        "focus": ["Sistemas de barrera estéril", "Integridad del sellado", "Cualificación específica"],
+        "products": [
+          { "name": "Bolsas de esterilización", "detail": "Películas PE/PA con papel médico o Tyvek®" },
+          { "name": "Bolsas de cabecera y cierre chevron", "detail": "Películas PE/PA para instrumental médico" },
+          { "name": "Envases farmacéuticos", "detail": "Laminados de alta barrera y baja migración" },
+          { "name": "Envases de diagnóstico", "detail": "Películas de barrera a humedad y control de contaminación" },
+          { "name": "Envases de apósitos", "detail": "Películas PE y bolsas papel-plástico" }
+        ]
+      }
+    },
+    "otherTitle": "Más allá de la película",
+    "other": [
+      { "title": "Extrusión de tuberías", "text": "Uso indicado en la ficha técnica para estabilidad de conformado y menos acumulación en el cabezal." },
+      { "title": "Hilos y cables", "text": "Uso indicado en la ficha técnica para calidad superficial y estabilidad de procesamiento." }
+    ]
+  },
+  "performance": {
+    "kicker": "03 / RENDIMIENTO MEDIDO",
+    "title": "Un proceso más uniforme no debe comprometer la película.",
+    "intro": "Consulte los datos que respaldan el producto: retención corona durante 30 días y comparación de propiedades con un 1 % de adición.",
+    "chartTitle": "Retención del tratamiento corona",
+    "chartSubtitle": "Película PE · mN/m · 30 días",
+    "chartDescription": "TTK-3700E al 1 % y el producto de comparación al 3 % muestran los mismos valores informados: 45 inicialmente y 40 mN/m del día 7 al día 30.",
+    "daysLabel": "Días tras la producción",
+    "dyneLabel": "Tensión superficial (mN/m)",
+    "productLegend": "TTK-3700E · 1 %",
+    "comparatorLegend": "Producto de comparación · 3 %",
+    "chartDataSummary": "Ver datos numéricos",
+    "dayLabel": "Día",
+    "initialLabel": "Inicial",
+    "resultValue": "40 mN/m",
+    "resultLabel": "Nivel corona mantenido en el día 30",
+    "resultNote": "Informado tanto para TTK-3700E al 1 % como para el producto de comparación al 3 %. Fuente: ficha técnica.",
+    "metricsTitle": "Propiedades de la película",
+    "before": "Película sin aditivo",
+    "after": "TTK-3700E · 1 %",
+    "metrics": [
+      { "label": "Transmitancia", "before": "90,30", "after": "90,50", "unit": "%" },
+      { "label": "Haze", "before": "5,08", "after": "5,06", "unit": "%" },
+      { "label": "Masa de rotura por impacto", "before": "67", "after": "66", "unit": "g" }
+    ],
+    "conditions": "Hoja de rendimiento: película soplada de 30 μm, 25 °C y 50 % de humedad relativa. Métodos: GB/T 2410-08 y GB 9639-88.",
+    "conclusion": "En las condiciones informadas, las propiedades ópticas, mecánicas, de termosellado y fricción son comparables en general a las de la película sin aditivo. Los resultados dependen de la formulación y el proceso."
+  },
+  "compliance": {
+    "kicker": "04 / EVIDENCIA",
+    "title": "Las afirmaciones son mejores con documentos.",
+    "intro": "Tres informes SGS cubren el flúor total, 671 analitos PFAS específicos y las 10 sustancias restringidas por RoHS. Todos se emitieron para el mismo lote de muestra.",
+    "cards": [
+      { "id": "pfas", "metric": "671", "title": "Analitos PFAS específicos", "result": "Todos los analitos enumerados: ND", "method": "EN 17681-1:2025 optimizada · Métodos LC/GC-MS", "link": "Ver informe" },
+      { "id": "fluorine", "metric": "ND", "title": "Análisis de flúor total", "result": "Por debajo del MDL de 20 mg/kg · límite 50 mg/kg", "method": "EN 14582:2016 · Cromatografía iónica", "link": "Ver informe" },
+      { "id": "rohs", "metric": "10 / ND", "title": "Sustancias restringidas RoHS", "result": "Conforme · las 10 sustancias ND", "method": "Serie IEC 62321 · ICP-OES/AAS, UV-Vis, GC-MS", "link": "Ver informe" }
+    ],
+    "declarationTitle": "También declarado en la ficha técnica",
+    "declarations": ["REACH (CE) 1907/2006", "Sin SVHC", "Norma de calidad Q/JN 001-2024"],
+    "noteTitle": "Interprete ND correctamente.",
+    "note": "ND significa no detectado por debajo del límite de detección del método, no cero absoluto. Los resultados se aplican solo a la muestra ensayada y al alcance del informe. Son informes de ensayo, no certificaciones ni aprobaciones para todos los mercados."
+  },
+  "process": {
+    "kicker": "05 / EN LA LÍNEA",
+    "title": "Comience en limpio. Ajuste según la película.",
+    "intro": "Use la hoja de rendimiento como guía inicial y ajuste según el equipo, la velocidad, la temperatura y la superficie real de la película.",
+    "steps": [
+      { "title": "Purgar y limpiar", "text": "Purgue a fondo la extrusora y limpie el cabezal antes de añadir el masterbatch." },
+      { "title": "Mezclar", "text": "Mezcle con resina compatible en la proporción seleccionada. Utilice la mezcla en un plazo de 24 horas para obtener el mejor resultado." },
+      { "title": "Acondicionar la línea", "text": "Cuando se requiera impresión o termosellado, comience con un 2 % y procese durante al menos 2 horas." },
+      { "title": "Optimizar", "text": "Revise la superficie y ajuste la dosificación a las condiciones reales. Confirme el rendimiento posterior con sus propias pruebas." }
+    ],
+    "packTitle": "Presentación y almacenamiento",
+    "pack": [
+      { "value": "25 kg", "label": "Saco compuesto de papel y plástico" },
+      { "value": "12 meses", "label": "En condiciones de almacenamiento recomendadas" },
+      { "value": "Fresco y seco", "label": "Proteger del sol, la lluvia y la contaminación" }
+    ],
+    "note": "Solo para uso industrial. Confirme la idoneidad para la formulación y el uso final previstos antes de producir."
+  },
+  "resources": {
+    "kicker": "06 / BIBLIOTECA DE DOCUMENTOS",
+    "title": "Lleve consigo el expediente técnico.",
+    "intro": "Documentos originales del producto e informes SGS en chino e inglés, listos para su evaluación interna.",
+    "primaryBadge": "DOCUMENTO PRINCIPAL",
+    "tdsTitle": "Ficha técnica",
+    "tdsDescription": "Propiedades físicas, dosificación, procesamiento, datos corona, almacenamiento y seguridad.",
+    "performanceTitle": "Hoja de rendimiento",
+    "performanceDescription": "Comparación de películas, decaimiento corona y guía de dosificación inicial.",
+    "download": "Descargar",
+    "downloadEn": "PDF en inglés",
+    "downloadCn": "中文 PDF",
+    "reportsTitle": "Informes de ensayo SGS",
+    "dateLabel": "Emisión",
+    "sourceNoteTitle": "Nota sobre fuentes y especificaciones",
+    "sourceNote": "La ficha china indica humedad <500 ppm; la inglesa, ≤2000 ppm. Los documentos difieren. Confirme la especificación vigente con el fabricante antes de comprar. Los PDF se mantienen en su idioma original, chino o inglés.",
+    "safetyTitle": "Límite de aplicación",
+    "safety": "Solo para uso industrial. No apto para contacto alimentario ni para implantes médicos."
+  },
+  "contact": {
+    "kicker": "07 / CONSULTA TÉCNICA",
+    "title": "Ponga el foco en su proceso.",
+    "intro": "Cree un resumen conciso para su contacto de POLYTREND. Incluya la estructura de la película, el equipo y el problema de procesamiento para facilitar la conversación técnica.",
+    "companyLabel": "FABRICANTE",
+    "manufacturer": "Foshan Polytrend New Material Co., Ltd.",
+    "formTitle": "Cree su consulta técnica",
+    "name": "Nombre",
+    "namePlaceholder": "Su nombre",
+    "company": "Empresa",
+    "companyPlaceholder": "Nombre de la empresa",
+    "region": "País / región",
+    "regionPlaceholder": "p. ej., España",
+    "application": "Sector de aplicación",
+    "process": "Proceso",
+    "resin": "Sistema de resina",
+    "resinPlaceholder": "p. ej., mezcla PE",
+    "challenge": "Problema de procesamiento",
+    "challengePlaceholder": "Acumulación en el cabezal, piel de tiburón, estructura deseada, condiciones de línea…",
+    "optional": "opcional",
+    "selectOption": "Seleccione una opción",
+    "processOptions": {
+      "blown": "Película soplada",
+      "cast": "Película de cast",
+      "pipe": "Extrusión de tuberías",
+      "wire": "Hilos y cables",
+      "other": "Otro"
+    },
+    "submit": "Generar consulta",
+    "privacy": "No se envía ni almacena nada. Genere un resumen y cópielo en su canal de contacto habitual.",
+    "resultTitle": "Su consulta está lista",
+    "copy": "Copiar consulta",
+    "copied": "Copiado al portapapeles.",
+    "copyFallback": "Seleccione el texto y cópielo manualmente.",
+    "applicationNote": "Nota de aplicación",
+    "briefTitle": "TTK-3700E — Consulta técnica",
+    "generatedNote": "Generado localmente; no enviado."
+  },
+  "footer": {
+    "tagline": "Masterbatch coadyuvante de procesamiento sin PFAS.",
+    "copyright": "© 2026 Foshan Polytrend New Material Co., Ltd.",
+    "backToTop": "Volver arriba"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "hygiene.jpg": {
+    "origin": "Pexels stock photograph",
+    "sourcePage": "https://www.pexels.com/photo/baby-diapers-on-a-basket-6849259/",
+    "sourceAsset": "https://images.pexels.com/photos/6849259/pexels-photo-6849259.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "Pexels License — https://www.pexels.com/license/",
+    "usage": "Illustrative hygiene-product scene; not a customer site or evidence of TTK-3700E use."
+  },
+  "protective.jpg": {
+    "origin": "Pexels stock photograph",
+    "sourcePage": "https://www.pexels.com/photo/a-man-wrapping-a-car-hood-10126665/",
+    "sourceAsset": "https://images.pexels.com/photos/10126665/pexels-photo-10126665.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "Pexels License — https://www.pexels.com/license/",
+    "usage": "Illustrative protective-film installation; not a customer site or evidence of TTK-3700E use or film chemistry."
+  },
+  "food.jpg": {
+    "origin": "Pexels stock photograph",
+    "sourcePage": "https://www.pexels.com/photo/coffee-pack-27405286/",
+    "sourceAsset": "https://images.pexels.com/photos/27405286/pexels-photo-27405286.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "Pexels License — https://www.pexels.com/license/",
+    "usage": "Illustrative flexible-packaging scene; not evidence of food-contact eligibility or TTK-3700E use."
+  },
+  "medical.jpg": {
+    "origin": "Pexels stock photograph",
+    "sourcePage": "https://www.pexels.com/photo/view-of-a-medical-sterilizer-6627665/",
+    "sourceAsset": "https://images.pexels.com/photos/6627665/pexels-photo-6627665.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "license": "Pexels License — https://www.pexels.com/license/",
+    "usage": "Illustrative sterilization-packaging scene; not evidence of medical approval or TTK-3700E use."
+  },
+  "sample-sgs.jpg": {
+    "origin": "Embedded sample photograph extracted from the user-provided SGS report",
+    "sourceDocument": "documents/ttk-3700e-total-fluorine-en.pdf",
+    "sourcePage": "PDF page 3, embedded image xref 44",
+    "reportId": "CANEC26013330503",
+    "sampleId": "CAN26-0133305-0001.C001",
+    "usage": "Actual SGS submitted-sample photograph; not a generic stock pellet image."
+  },
+  "report-pfas.jpg": {
+    "origin": "First-page render of the user-provided SGS report",
+    "sourceDocument": "documents/ttk-3700e-targeted-pfas-en.pdf",
+    "sourcePage": "PDF page 1",
+    "reportId": "CANEC26013330501"
+  },
+  "report-fluorine.jpg": {
+    "origin": "First-page render of the user-provided SGS report",
+    "sourceDocument": "documents/ttk-3700e-total-fluorine-en.pdf",
+    "sourcePage": "PDF page 1",
+    "reportId": "CANEC26013330503"
+  },
+  "report-rohs.jpg": {
+    "origin": "First-page render of the user-provided SGS report",
+    "sourceDocument": "documents/ttk-3700e-rohs-en.pdf",
+    "sourcePage": "PDF page 1",
+    "reportId": "CANEC26013330505"
+  },
+  "report-pfas-cn.jpg": {
+    "origin": "First-page render of the user-provided Chinese SGS report",
+    "sourceDocument": "documents/ttk-3700e-targeted-pfas-cn.pdf",
+    "sourcePage": "PDF page 1",
+    "reportId": "CANEC26013330502"
+  },
+  "report-fluorine-cn.jpg": {
+    "origin": "First-page render of the user-provided Chinese SGS report",
+    "sourceDocument": "documents/ttk-3700e-total-fluorine-cn.pdf",
+    "sourcePage": "PDF page 1",
+    "reportId": "CANEC26013330504"
+  },
+  "report-rohs-cn.jpg": {
+    "origin": "First-page render of the user-provided Chinese SGS report",
+    "sourceDocument": "documents/ttk-3700e-rohs-cn.pdf",
+    "sourcePage": "PDF page 1",
+    "reportId": "CANEC26013330506"
+  }
+}

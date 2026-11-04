@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-27T04:10:25Z",
+  "title": "Design System: POLYTREND TTK-3700E",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Cobalt Action",
+        "canonical": "#1565d8",
+        "tonalRamp": ["oklch(15% 0.0536 259.09)", "oklch(28% 0.1187 259.09)", "oklch(41% 0.1685 259.09)", "oklch(54% 0.1914 259.09)", "oklch(67% 0.1685 259.09)", "oklch(79% 0.1187 259.09)", "oklch(89% 0.0651 259.09)", "oklch(95% 0.0230 259.09)"]
+      },
+      "primary-hover": {
+        "role": "primary",
+        "displayName": "Cobalt Hover",
+        "canonical": "#0d51b1",
+        "tonalRamp": ["oklch(15% 0.0465 259.02)", "oklch(28% 0.1029 259.02)", "oklch(41% 0.1460 259.02)", "oklch(54% 0.1659 259.02)", "oklch(67% 0.1460 259.02)", "oklch(79% 0.1029 259.02)", "oklch(89% 0.0564 259.02)", "oklch(95% 0.0199 259.02)"]
+      },
+      "primary-on-dark": {
+        "role": "primary",
+        "displayName": "Ice Blue on Navy",
+        "canonical": "#a9caff",
+        "tonalRamp": ["oklch(15% 0.0232 259.76)", "oklch(28% 0.0514 259.76)", "oklch(41% 0.0730 259.76)", "oklch(54% 0.0829 259.76)", "oklch(67% 0.0730 259.76)", "oklch(79% 0.0514 259.76)", "oklch(89% 0.0282 259.76)", "oklch(95% 0.0099 259.76)"]
+      },
+      "selected": {
+        "role": "primary",
+        "displayName": "Selected Wash",
+        "canonical": "#e3efff",
+        "tonalRamp": ["oklch(15% 0.0070 255.56)", "oklch(28% 0.0156 255.56)", "oklch(41% 0.0221 255.56)", "oklch(54% 0.0251 255.56)", "oklch(67% 0.0221 255.56)", "oklch(79% 0.0156 255.56)", "oklch(89% 0.0086 255.56)", "oklch(95% 0.0030 255.56)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Navy Ink",
+        "canonical": "#10233f",
+        "tonalRamp": ["oklch(15% 0.0164 258.04)", "oklch(28% 0.0364 258.04)", "oklch(41% 0.0516 258.04)", "oklch(54% 0.0587 258.04)", "oklch(67% 0.0516 258.04)", "oklch(79% 0.0364 258.04)", "oklch(89% 0.0199 258.04)", "oklch(95% 0.0070 258.04)"]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Navy Ink",
+        "canonical": "#142f50",
+        "tonalRamp": ["oklch(15% 0.0192 254.77)", "oklch(28% 0.0425 254.77)", "oklch(41% 0.0603 254.77)", "oklch(54% 0.0685 254.77)", "oklch(67% 0.0603 254.77)", "oklch(79% 0.0425 254.77)", "oklch(89% 0.0233 254.77)", "oklch(95% 0.0082 254.77)"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Ice Grey Paper",
+        "canonical": "#f3f6f8",
+        "tonalRamp": ["oklch(15% 0.0012 236.50)", "oklch(28% 0.0026 236.50)", "oklch(41% 0.0037 236.50)", "oklch(54% 0.0042 236.50)", "oklch(67% 0.0037 236.50)", "oklch(79% 0.0026 236.50)", "oklch(89% 0.0014 236.50)", "oklch(95% 0.0005 236.50)"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Calibrated White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(15% 0.0000 0)", "oklch(28% 0.0000 0)", "oklch(41% 0.0000 0)", "oklch(54% 0.0000 0)", "oklch(67% 0.0000 0)", "oklch(79% 0.0000 0)", "oklch(89% 0.0000 0)", "oklch(95% 0.0000 0)"]
+      },
+      "surface-subtle": {
+        "role": "neutral",
+        "displayName": "Section Ice",
+        "canonical": "#eaf0f6",
+        "tonalRamp": ["oklch(15% 0.0029 247.93)", "oklch(28% 0.0064 247.93)", "oklch(41% 0.0091 247.93)", "oklch(54% 0.0103 247.93)", "oklch(67% 0.0091 247.93)", "oklch(79% 0.0064 247.93)", "oklch(89% 0.0035 247.93)", "oklch(95% 0.0012 247.93)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Blue Grey",
+        "canonical": "#53677e",
+        "tonalRamp": ["oklch(15% 0.0123 252.21)", "oklch(28% 0.0273 252.21)", "oklch(41% 0.0387 252.21)", "oklch(54% 0.0440 252.21)", "oklch(67% 0.0440 252.21)", "oklch(79% 0.0273 252.21)", "oklch(89% 0.0150 252.21)", "oklch(95% 0.0053 252.21)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Fine Rule Blue",
+        "canonical": "#c9d8e8",
+        "tonalRamp": ["oklch(15% 0.0077 249.87)", "oklch(28% 0.0170 249.87)", "oklch(41% 0.0242 249.87)", "oklch(54% 0.0274 249.87)", "oklch(67% 0.0274 249.87)", "oklch(79% 0.0170 249.87)", "oklch(89% 0.0093 249.87)", "oklch(95% 0.0033 249.87)"]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus Blue",
+        "canonical": "#3b82e6",
+        "tonalRamp": ["oklch(15% 0.0469 257.60)", "oklch(28% 0.1038 257.60)", "oklch(41% 0.1473 257.60)", "oklch(54% 0.1673 257.60)", "oklch(67% 0.1473 257.60)", "oklch(79% 0.1038 257.60)", "oklch(89% 0.0569 257.60)", "oklch(95% 0.0201 257.60)"]
+      },
+      "qualification": {
+        "role": "secondary",
+        "displayName": "Qualification Brown-Orange",
+        "canonical": "#85450f",
+        "tonalRamp": ["oklch(15% 0.0300 54.34)", "oklch(28% 0.0665 54.34)", "oklch(41% 0.0944 54.34)", "oklch(54% 0.1072 54.34)", "oklch(67% 0.0944 54.34)", "oklch(79% 0.0665 54.34)", "oklch(89% 0.0365 54.34)", "oklch(95% 0.0129 54.34)"]
+      },
+      "qualification-soft": {
+        "role": "secondary",
+        "displayName": "Qualification Wash",
+        "canonical": "#fff0df",
+        "tonalRamp": ["oklch(15% 0.0078 70.95)", "oklch(28% 0.0172 70.95)", "oklch(41% 0.0244 70.95)", "oklch(54% 0.0277 70.95)", "oklch(67% 0.0244 70.95)", "oklch(79% 0.0172 70.95)", "oklch(89% 0.0094 70.95)", "oklch(95% 0.0033 70.95)"]
+      },
+      "result-positive": {
+        "role": "secondary",
+        "displayName": "Measured Result Green",
+        "canonical": "#25623f",
+        "tonalRamp": ["oklch(15% 0.0240 155.31)", "oklch(28% 0.0532 155.31)", "oklch(41% 0.0754 155.31)", "oklch(54% 0.0857 155.31)", "oklch(67% 0.0754 155.31)", "oklch(79% 0.0532 155.31)", "oklch(89% 0.0291 155.31)", "oklch(95% 0.0103 155.31)"]
+      },
+      "scene-hygiene": {
+        "role": "secondary",
+        "displayName": "Hygiene Teal",
+        "canonical": "#0d775f",
+        "tonalRamp": ["oklch(15% 0.0268 171.72)", "oklch(28% 0.0593 171.72)", "oklch(41% 0.0842 171.72)", "oklch(54% 0.0957 171.72)", "oklch(67% 0.0842 171.72)", "oklch(79% 0.0593 171.72)", "oklch(89% 0.0325 171.72)", "oklch(95% 0.0115 171.72)"]
+      },
+      "scene-medical": {
+        "role": "secondary",
+        "displayName": "Medical Slate",
+        "canonical": "#4e6173",
+        "tonalRamp": ["oklch(15% 0.0104 247.19)", "oklch(28% 0.0231 247.19)", "oklch(41% 0.0327 247.19)", "oklch(54% 0.0372 247.19)", "oklch(67% 0.0372 247.19)", "oklch(79% 0.0231 247.19)", "oklch(89% 0.0126 247.19)", "oklch(95% 0.0045 247.19)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Latin hero headline only." },
+      "display-cjk": { "displayName": "CJK Display", "purpose": "Simplified Chinese and Japanese hero headline with natural wrapping." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles." },
+      "title": { "displayName": "Title", "purpose": "Repeated card and document titles." },
+      "body": { "displayName": "Body", "purpose": "Base reading text and longer introductions." },
+      "body-small": { "displayName": "Small Functional Body", "purpose": "Inputs, metadata and supporting functional text." },
+      "label": { "displayName": "Label", "purpose": "Buttons, tabs, badges and downloads." },
+      "navigation": { "displayName": "Navigation", "purpose": "Desktop section-navigation links." },
+      "data": { "displayName": "Data", "purpose": "Large measured or dosage values with visible units and source context." }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "film-deploy",
+        "value": ".65s cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "One-time right-to-left clip-path reveal of the application filmstrip when no motion preference is set."
+      },
+      {
+        "name": "state-transition",
+        "value": ".2s ease",
+        "purpose": "Button, navigation, tab and disclosure state changes without spatial lift."
+      },
+      {
+        "name": "photo-hover",
+        "value": ".35s ease",
+        "purpose": "Application photograph scale to 1.025 on hover."
+      },
+      {
+        "name": "reduced-motion",
+        "value": ".01ms",
+        "purpose": "Reduced-motion animation and transition duration; smooth scrolling and generated-brief smooth scrolling are disabled."
+      }
+    ],
+    "breakpoints": [
+      { "name": "wide-max", "value": "1160px", "purpose": "Reduced gutters and gaps; navigation CTA hidden." },
+      { "name": "tablet-max", "value": "960px", "purpose": "Menu navigation and stacked primary layouts." },
+      { "name": "mobile-max", "value": "680px", "purpose": "One-column content and forms, full-width actions, 16px form controls." },
+      { "name": "narrow-max", "value": "360px", "purpose": "Narrowest gutter and display adjustments without a smaller functional-text tier." },
+      { "name": "desktop-nav-min", "value": "961px", "purpose": "JavaScript media-query boundary that closes the mobile menu when entering desktop." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Cobalt action for the primary path into application evidence.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#applications\">View applications <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-btn-primary{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:var(--white);background:var(--accent);border:1px solid var(--accent);border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,color .2s,border-color .2s}.ds-btn-primary:hover{background:#0d51b1;border-color:#0d51b1}.ds-btn-primary:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Ghost Download Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Quiet outlined action used for the hero TDS download.",
+      "html": "<a class=\"ds-btn-ghost\" href=\"documents/ttk-3700e-tds-en.pdf\" download>Download TDS <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4\"/></svg></a>",
+      "css": ".ds-btn-ghost{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:var(--ink);background:transparent;border:1px solid #9fb6ce;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,color .2s,border-color .2s}.ds-btn-ghost:hover{background:#e3eef9;border-color:var(--accent)}.ds-btn-ghost:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Dark Button",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Navy action for local brief generation and copying on a light form surface.",
+      "html": "<button class=\"ds-btn-dark\" type=\"submit\">Generate brief <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-dark{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:var(--white);background:var(--ink);border:1px solid var(--ink);border-radius:6px;cursor:pointer;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;transition:background .2s,color .2s,border-color .2s}.ds-btn-dark:hover{background:#244a72}.ds-btn-dark:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "WhatsApp Share Button",
+      "kind": "button",
+      "refersTo": "button-whatsapp",
+      "description": "Deep-green user-initiated share action that opens WhatsApp with a localized product introduction or generated brief; no manufacturer number is implied when the channel is empty.",
+      "html": "<a class=\"ds-btn-whatsapp\" href=\"https://wa.me/?text=TTK-3700E\" target=\"_blank\" rel=\"noopener\">Share via WhatsApp</a>",
+      "css": ".ds-btn-whatsapp{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:#ffffff;background:#147d64;border:1px solid #147d64;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,border-color .2s}.ds-btn-whatsapp:hover{background:#0f684f;border-color:#0f684f}.ds-btn-whatsapp:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}"
+    },
+    {
+      "name": "Section Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Compact desktop section links with a cobalt hover underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Section navigation\"><a href=\"#product\">Product</a><a href=\"#applications\">Applications</a><a href=\"#performance\">Performance</a><a href=\"#resources\">Resources</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:25px}.ds-nav a{position:relative;color:#425a74;font-family:var(--font);font-size:12px;font-weight:550;line-height:1.55;text-decoration:none;white-space:nowrap}.ds-nav a:after{position:absolute;right:0;bottom:-8px;left:0;height:2px;background:var(--accent);content:'';transform:scaleX(0);transform-origin:left;transition:transform .2s ease}.ds-nav a:hover{color:var(--accent)}.ds-nav a:hover:after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}"
+    },
+    {
+      "name": "Application Tab",
+      "kind": "chip",
+      "refersTo": "scenario-tab",
+      "description": "Photographic tab with a pale selected wash and cobalt selected border.",
+      "html": "<button class=\"ds-scene-tab\" type=\"button\" role=\"tab\" aria-selected=\"true\"><img class=\"ds-scene-thumb\" src=\"assets/images/hygiene.jpg\" width=\"1200\" height=\"900\" alt=\"\"><span>Hygiene</span><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-scene-tab{display:grid;grid-template-columns:70px minmax(0,1fr) 18px;min-width:0;min-height:70px;align-items:center;padding:0;overflow:hidden;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:10px;cursor:pointer;text-align:left;transition:background .2s,border-color .2s}.ds-scene-tab:hover{border-color:#88a9d0}.ds-scene-tab[aria-selected=true]{background:#e3efff;border-color:var(--accent)}.ds-scene-thumb{width:70px;height:70px;object-fit:cover}.ds-scene-tab span{min-width:0;padding:9px 10px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4}.ds-icon{width:15px;height:15px;margin-right:9px;color:var(--accent);fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round;opacity:0}.ds-scene-tab[aria-selected=true] .ds-icon{opacity:1}.ds-scene-tab:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}@media(max-width:680px){.ds-scene-tab{grid-template-columns:52px minmax(0,1fr);min-height:60px;border-radius:8px}.ds-scene-thumb{width:52px;height:60px}.ds-scene-tab span{padding:8px}.ds-scene-tab .ds-icon{display:none}}"
+    },
+    {
+      "name": "Application Panel",
+      "kind": "card",
+      "refersTo": "scenario-panel",
+      "description": "Compact application detail with a text-forward grid and a capped real-scene photograph so subapplications and process guidance remain in the same reading viewport.",
+      "html": "<article class=\"ds-scenario-panel\"><div>Application details and subapplication rows</div><figure><img src=\"assets/images/hygiene.jpg\" width=\"1200\" height=\"900\" alt=\"Diapers arranged in a basket\"><figcaption>Illustrative industry photograph</figcaption></figure></article>",
+      "css": ".ds-scenario-panel{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);gap:24px;padding:22px;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:12px}.ds-scenario-panel img{width:100%;height:260px;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line);border-radius:10px}@media(max-width:960px){.ds-scenario-panel{grid-template-columns:1fr}}@media(max-width:680px){.ds-scenario-panel img{height:auto;max-height:280px}}"
+    },
+    {
+      "name": "Specification Card",
+      "kind": "card",
+      "refersTo": "spec-card",
+      "description": "Flat technical-data card with ruled definition rows and tabular values.",
+      "html": "<article class=\"ds-spec-card\"><div class=\"ds-spec-head\"><h3>Technical data</h3><span>TTK-3700E</span></div><dl><div><dt>Active content</dt><dd>5.00%</dd></div><div><dt>Carrier resin</dt><dd>LDPE</dd></div><div><dt>Form</dt><dd>Milky-white pellets</dd></div></dl></article>",
+      "css": ".ds-spec-card{padding:24px;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:12px;font-family:var(--font)}.ds-spec-head{display:flex;align-items:center;justify-content:space-between;gap:16px}.ds-spec-head h3{margin:0;font-size:21px;font-weight:650;letter-spacing:-.02em}.ds-spec-head span{color:var(--muted);font-size:12px;letter-spacing:.08em}.ds-spec-card dl{margin:17px 0 12px;font-variant-numeric:tabular-nums}.ds-spec-card dl>div{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;padding:10px 0;border-bottom:1px solid #e2eaf2}.ds-spec-card dt{color:var(--muted);font-size:12px}.ds-spec-card dd{margin:0;font-size:12px;font-weight:650;text-align:right}"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "field-input",
+      "description": "White technical-brief input with a cobalt focus border and light-blue focus outline.",
+      "html": "<input class=\"ds-field-input\" type=\"text\" name=\"resin\" aria-label=\"Resin\" autocomplete=\"off\">",
+      "css": ".ds-field-input{width:100%;min-height:44px;padding:10px 12px;color:var(--text);background:var(--white);border:1px solid #bdcede;border-radius:6px;font-family:var(--font);font-size:12px;line-height:1.55;caret-color:var(--accent)}.ds-field-input:focus,.ds-field-input:focus-visible{border-color:var(--accent);outline:2px solid #b7d3f5;outline-offset:0}@media(max-width:680px){.ds-field-input{font-size:16px}}"
+    },
+    {
+      "name": "Qualification Badge",
+      "kind": "chip",
+      "refersTo": "badge-qualification",
+      "description": "Pill-shaped qualification marker; never an approval or certification badge.",
+      "html": "<span class=\"ds-qualification\"><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 11v6M12 7v.5\"/></svg>Qualification required</span>",
+      "css": ".ds-qualification{display:inline-flex;align-items:center;gap:6px;padding:5px 8px;color:#85450f;background:var(--white);border:1px solid currentColor;border-radius:30px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4}.ds-icon{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Download Link",
+      "kind": "button",
+      "refersTo": "download-link",
+      "description": "Compact outlined source-document download that fills cobalt on hover.",
+      "html": "<a class=\"ds-download\" href=\"documents/ttk-3700e-total-fluorine-en.pdf\" download>English PDF <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4\"/></svg></a>",
+      "css": ".ds-download{display:inline-flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 12px;color:var(--accent);background:transparent;border:1px solid #9fb7d2;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,color .2s}.ds-download:hover{color:var(--white);background:var(--accent)}.ds-download:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
+    },
+    {
+      "name": "Report Preview",
+      "kind": "custom",
+      "refersTo": "report-preview",
+      "description": "Actual first-page SGS render linked to its local source PDF, not a certificate emblem.",
+      "html": "<a class=\"ds-report-preview\" href=\"documents/ttk-3700e-total-fluorine-en.pdf\" target=\"_blank\" rel=\"noopener\"><img src=\"assets/images/report-fluorine.jpg\" width=\"720\" height=\"1018\" loading=\"lazy\" decoding=\"async\" alt=\"First page of the SGS total fluorine report\"></a>",
+      "css": ".ds-report-preview{display:block;width:96px;overflow:hidden;background:var(--white);border:1px solid #b8c9da;border-radius:6px}.ds-report-preview img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:720/1018;object-fit:cover}.ds-report-preview:hover{border-color:var(--accent)}.ds-report-preview:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Film Inspection Light Table",
+    "overview": "The system treats the page as a compact technical workbench: white and ice-grey surfaces hold real application photographs, measured data and report previews, while deep navy separates evidence-heavy regions. Cobalt is reserved for actions, selected states and the product data series. The source of truth is the built static site; there is no approved visual comp.\n\nDensity comes from aligned grids, fine rules and reusable 12px functional text rather than miniaturized metadata. Photography supplies concrete context, not product-use proof. The same evidence hierarchy must survive all five interface languages and the no-JavaScript, reduced-motion, mobile and print presentations.",
+    "keyCharacteristics": [
+      "Cold white and ice-grey work surfaces with navy structure and cobalt actions.",
+      "Archivo variable Latin type with native CJK fallbacks and locale-specific line breaking.",
+      "Compact grids, 1px rules, shallow 6–12px radii and no persistent shadows.",
+      "Real scene, sample and report imagery with traceable provenance.",
+      "Keyboard-operable scene tabs, original PDF downloads and a local-only technical brief."
+    ],
+    "rules": [
+      {
+        "name": "The Action and Qualification Rule",
+        "body": "Use cobalt for actions, selection and the product data series; use orange only for qualifications or safety boundaries. Neither color may turn an illustrative scene or an SGS result into an end-use approval or certification.",
+        "section": "colors"
+      },
+      {
+        "name": "The Functional Floor Rule",
+        "body": "New functional labels, navigation, tab text, metadata, download actions, notes and form copy use at least 12px; form controls use 16px at 680px and below. The brand microtagline and legacy sub-12px declarations are not reusable type-scale steps.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "Do not add ambient card shadows or floating glass panels. Use a tonal surface change or a 1px rule first, and reserve outlines for keyboard and field focus.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep new functional text at 12px or larger and mobile form controls at 16px; treat remaining smaller declarations as debt.",
+      "Do preserve intrinsic image dimensions, localized alternatives, loading priority and the provenance ledger whenever media changes.",
+      "Do keep report IDs, scope, method context and original Chinese/English PDFs close to the claims they support.",
+      "Do preserve keyboard tabs, visible focus, reduced motion, no-JavaScript content access and the local-only brief across all five locales.",
+      "Do retain the documented Chinese/English TDS moisture-specification difference until the source documents themselves change."
+    ],
+    "donts": [
+      "Don't present Pexels scenes as customer production, TTK-3700E use, film-chemistry evidence, food-contact eligibility or medical approval.",
+      "Don't describe SGS reports as certifications, ND as absolute zero, or sample-scoped results as universal performance guarantees.",
+      "Don't turn food flexible packaging or medical packaging into approved end uses; the current TDS limits the product to industrial use and excludes food contact and medical implants.",
+      "Don't add inquiry sending, remote-success or storage claims to the technical brief; no public recipient is configured.",
+      "Don't treat the current brand mark or custom illustrations as a verified official logo, customer endorsement or approval asset.",
+      "Don't replace inspectable media with decorative scene illustrations or introduce unoccupied viewport-height spacers."
+    ]
+  }
+}

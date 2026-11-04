@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "title": "TTK-3700E PFAS-freies PPA-Masterbatch | POLYTREND",
+    "description": "TTK-3700E: silikonbasiertes, PFAS-freies PPA-Masterbatch für die Polyolefin-Extrusion, mit Foliendaten und SGS-Prüfberichten."
+  },
+  "languageLabel": "Sprache wählen",
+  "nav": {
+    "product": "Produkt",
+    "applications": "Anwendungen",
+    "performance": "Leistungsdaten",
+    "resources": "Dokumente",
+    "contact": "Anfrage erstellen",
+    "menu": "Menü"
+  },
+  "hero": {
+    "eyebrow": "TTK-3700E / SILIKONBASIERTES PPA-MASTERBATCH",
+    "title": ["Stabilere Extrusion.", "Ohne Fluor."],
+    "intro": "PFAS-freies prozessunterstützendes Masterbatch auf LDPE-Träger, entwickelt gegen Düsenbelag und Schmelzbruch bei der Polyolefin-Extrusion.",
+    "primaryCta": "Anwendungen entdecken",
+    "secondaryCta": "Technische Daten laden",
+    "reportBadge": "Unabhängig geprüft. Dokumentierte Ergebnisse.",
+    "visualAlt": "Darstellung von Granulat, das über einen Extruder zu einer glatten Folie verarbeitet wird",
+    "visualKicker": "VOM GRANULAT ZUR FOLIE",
+    "visualCaption": "Ein silikonbasierter Weg zu stabilerer Verarbeitung.",
+    "metrics": [
+      { "value": "5,00 %", "label": "Wirkstoffgehalt" },
+      { "value": "LDPE", "label": "Trägerharz" },
+      { "value": "0,5–2,0 %", "label": "Leistungsrichtwert" },
+      { "value": "25 kg", "label": "Gebinde" }
+    ]
+  },
+  "proof": ["PFAS-freie Formulierung", "SGS-Prüfberichte", "Für die industrielle Extrusion"],
+  "product": {
+    "kicker": "01 / DAS MATERIAL",
+    "title": "Prozesseffizienz. Folieneigenschaften in Balance.",
+    "intro": "Ein Prozessadditiv soll Probleme an der Düse lösen – nicht neue in der Folie schaffen. TTK-3700E verbindet Schmierung mit gemessenen optischen und mechanischen Eigenschaften.",
+    "benefits": [
+      { "title": "Düsenbelag kontrollieren", "text": "Unterstützt die Verringerung von Düsenablagerungen und Haifischhaut für eine glattere, gleichmäßigere Folienoberfläche." },
+      { "title": "Effiziente Produktion unterstützen", "text": "Die Schmierwirkung hilft, Anlagenverschleiß und Wartungsaufwand zu reduzieren und den Extrusionsprozess zu stabilisieren." },
+      { "title": "Fluorierte PPA ersetzen", "text": "Silikonbasierte, PFAS-freie Formulierung, gestützt durch Gesamtfluor-Screening und gezielte PFAS-Analytik." }
+    ],
+    "specsTitle": "Technischer Steckbrief",
+    "specsNote": "Quelle: Technisches Datenblatt TTK-3700E",
+    "specs": [
+      { "label": "Aussehen", "value": "Milchig-weißes Granulat" },
+      { "label": "Trägerharz", "value": "LDPE" },
+      { "label": "Wirkstoffgehalt", "value": "5,00 %" },
+      { "label": "Schmelzindex · 190 °C / 2,16 kg", "value": "5–10 g/10 min" },
+      { "label": "Schüttdichte", "value": "0,45–0,55 g/cm³" },
+      { "label": "Qualitätsstandard", "value": "Q/JN 001-2024" }
+    ],
+    "dosageKicker": "DOSIERUNG / AUSGANGSPUNKT",
+    "dosageTitle": "Ein praxisnaher Arbeitsbereich.",
+    "dosageValue": "0,5–2,0 %",
+    "dosageLabel": "Empfehlung des Leistungsdatenblatts",
+    "dosageTds": "Das technische Datenblatt nennt einen weiteren Bereich von 0,5–5 %.",
+    "dosageNote": "Für Druck oder Heißsiegelung: mit 2 % beginnen, mindestens 2 Stunden fahren und anschließend anhand der Folienoberfläche anpassen.",
+    "dosageLink": "Verarbeitungsleitfaden ansehen"
+  },
+  "applications": {
+    "kicker": "02 / ANWENDUNGSBLICK",
+    "title": "Ein Material. Unterschiedliche Folienherausforderungen.",
+    "intro": "Vier Folienbereiche aus Sicht ihrer Prozessanforderungen. Die Priorität berücksichtigt technische Eignung und regulatorische Voraussetzungen – keine Zertifizierung für jede Endanwendung.",
+    "tabsLabel": "Anwendungsbereiche für Folien",
+    "scenes": {
+      "hygiene": {
+        "tab": "Hygiene",
+        "status": "Priorisierte Anwendung",
+        "title": "Atmungsaktive Folien für Hygieneprodukte.",
+        "description": "Hochgefüllte atmungsaktive PE-Folien stellen hohe Anforderungen an Düsensauberkeit und Stabilität bei geringer Dicke. Hier kann die PPA-Schmierung ihren Nutzen entfalten.",
+        "note": "Ein sinnvoller erster Prüfbereich: Es werden keine Aussagen zu Lebensmittel- oder Arzneimittelkontakt gemacht. Anforderungen des Endprodukts bleiben zu prüfen.",
+        "focusLabel": "PROZESSFOKUS",
+        "focus": ["Hoher Füllstoffgehalt", "Atmungsaktive Gießfolie", "Düsenbelag kontrollieren"],
+        "products": [
+          { "name": "Windelrückfolien", "detail": "Atmungsaktive PE + CaCO₃-Gießfolie" },
+          { "name": "Damenhygienefolien", "detail": "Rückfolien und Einzelverpackungen" },
+          { "name": "Inkontinenzprodukte für Erwachsene", "detail": "Dünne, stabile PE-Rückfolie" },
+          { "name": "Krankenunterlagen und Tierpads", "detail": "Undurchlässige PE-Gießfolien" },
+          { "name": "Schutzkleidung", "detail": "Atmungsaktive Folie für Vlieslaminate" }
+        ]
+      },
+      "protective": {
+        "tab": "Schutzfolien",
+        "status": "Priorisierte Anwendung",
+        "title": "Oberflächenschutz bis ins Finish.",
+        "description": "Bei selbstklebenden und klebstoffbeschichteten PE-Folien können Oberflächenfehler Spuren auf dem Schutzgut hinterlassen. Prozessstabilität und Gelkontrolle sind entscheidend.",
+        "note": "Die Verträglichkeit mit EVA, Polyisobutylen und anderen Klebrigmachern muss in Produktionsversuchen geprüft werden.",
+        "focusLabel": "PROZESSFOKUS",
+        "focus": ["Gelempfindliche Oberflächen", "PE-Blas- und Gießfolie", "Sauberes Erscheinungsbild"],
+        "products": [
+          { "name": "Baumaterialien", "detail": "Folien für Aluminiumprofile, Edelstahl und beschichteten Stahl" },
+          { "name": "Haushaltsgerätefronten", "detail": "Schutzfolien für sichtbare Oberflächen" },
+          { "name": "Elektronik und Optik", "detail": "Hochreine Folien für Displays, Linsen und Diffusorplatten" },
+          { "name": "Glas und Acryl", "detail": "Temporärer Oberflächenschutz für Platten" },
+          { "name": "Fahrzeugtransport", "detail": "Folien für lackierte Teile und Innenverkleidungen" }
+        ]
+      },
+      "food": {
+        "tab": "Flexible Lebensmittelverpackungen",
+        "status": "Eignungsprüfung erforderlich",
+        "title": "Flexible Verpackungen beginnen mit Compliance.",
+        "description": "PE-Siegelschichten für Snacks, Flüssigkeiten, Tiefkühlkost und Schwerlastverpackungen stehen vor Herausforderungen durch hohe Extrusionsgeschwindigkeit und Düsenbelag.",
+        "note": "Wichtig: Das aktuelle Datenblatt erklärt TTK-3700E für ungeeignet für Lebensmittelkontakt. Dies sind Branchenanforderungen, keine zugelassenen Endanwendungen. Ohne vom Hersteller bestätigte Compliance-Grundlage darf dieses Produkt nicht für Lebensmittelkontaktverpackungen spezifiziert werden.",
+        "focusLabel": "PROZESSKONTEXT",
+        "focus": ["Hochgeschwindigkeitsextrusion", "PE-Siegelschichten", "Regulatorische Hürde"],
+        "products": [
+          { "name": "Snacks und Trockenprodukte", "detail": "BOPP/PE- und PET/PE-Verbunde" },
+          { "name": "Beutel für Flüssigkeiten und Saucen", "detail": "Mehrschichtfolien mit dickerer PE-Siegelschicht" },
+          { "name": "Tiefkühlkost", "detail": "PA/PE-Strukturen für niedrige Temperaturen" },
+          { "name": "Milchproduktverpackungen", "detail": "Dreilagig coextrudierte PE-Folien" },
+          { "name": "Schwerlastverpackungen", "detail": "PE-Blasfolien für FFS und große Säcke" }
+        ]
+      },
+      "medical": {
+        "tab": "Medizinische Verpackungen",
+        "status": "Spezifische Qualifizierung",
+        "title": "Medizinverpackungen sind eine eigene Disziplin.",
+        "description": "Sterilbarrierebeutel und Pharmaverpackungen erfordern kontrollierte Migration, Siegelung und Sterilisationseignung.",
+        "note": "Das Datenblatt schließt medizinische Implantate aus. Eine Außenverpackung ist kein Implantat, dennoch wird hier keine Zulassung für Medizinverpackungen beansprucht. ISO 11607, Arzneibuch und produktspezifische Anforderungen sind gesondert zu prüfen.",
+        "focusLabel": "QUALIFIZIERUNGSKONTEXT",
+        "focus": ["Sterilbarrieresysteme", "Siegelnahtintegrität", "Spezifische Qualifizierung"],
+        "products": [
+          { "name": "Sterilisationsbeutel", "detail": "PE/PA-Folien mit Medizinalpapier oder Tyvek®" },
+          { "name": "Kopf- und Chevronbeutel", "detail": "PE/PA-Folien für Instrumentenverpackungen" },
+          { "name": "Pharmaverpackungen", "detail": "Hochbarriere-Verbunde mit geringer Migration" },
+          { "name": "Diagnostikverpackungen", "detail": "Folien mit Feuchtigkeitsbarriere und Kontaminationsschutz" },
+          { "name": "Verbandstoffverpackungen", "detail": "PE-Folien und Papier-Kunststoff-Beutel" }
+        ]
+      }
+    },
+    "otherTitle": "Über Folien hinaus",
+    "other": [
+      { "title": "Rohrextrusion", "text": "Im Datenblatt genannte Anwendung für Formgebungsstabilität und weniger Düsenbelag." },
+      { "title": "Drähte und Kabel", "text": "Im Datenblatt genannte Anwendung für Oberflächenqualität und Prozessstabilität." }
+    ]
+  },
+  "performance": {
+    "kicker": "03 / GEMESSENE LEISTUNG",
+    "title": "Ein stabilerer Prozess soll die Folie nicht beeinträchtigen.",
+    "intro": "Die Daten hinter dem Produkt: Corona-Beständigkeit über 30 Tage und Folieneigenschaften im Vergleich bei 1 % Zugabe.",
+    "chartTitle": "Corona-Beständigkeit",
+    "chartSubtitle": "PE-Folie · mN/m · 30 Tage",
+    "chartDescription": "TTK-3700E mit 1 % und das Vergleichsprodukt mit 3 % zeigen dieselben berichteten Werte: anfangs 45 und vom 7. bis 30. Tag 40 mN/m.",
+    "daysLabel": "Tage nach der Produktion",
+    "dyneLabel": "Oberflächenspannung (mN/m)",
+    "productLegend": "TTK-3700E · 1 %",
+    "comparatorLegend": "Vergleichsprodukt · 3 %",
+    "chartDataSummary": "Numerische Daten anzeigen",
+    "dayLabel": "Tag",
+    "initialLabel": "Anfangs",
+    "resultValue": "40 mN/m",
+    "resultLabel": "Am 30. Tag gehaltenes Corona-Niveau",
+    "resultNote": "Berichtet für TTK-3700E mit 1 % und das Vergleichsprodukt mit 3 %. Quelle: Technisches Datenblatt.",
+    "metricsTitle": "Folieneigenschaften im Überblick",
+    "before": "Folie ohne Zusatz",
+    "after": "TTK-3700E · 1 %",
+    "metrics": [
+      { "label": "Lichtdurchlässigkeit", "before": "90,30", "after": "90,50", "unit": "%" },
+      { "label": "Trübung", "before": "5,08", "after": "5,06", "unit": "%" },
+      { "label": "Bruchmasse beim Fallpfeiltest", "before": "67", "after": "66", "unit": "g" }
+    ],
+    "conditions": "Leistungsdatenblatt: 30 μm Blasfolie, 25 °C, 50 % relative Luftfeuchtigkeit. Prüfverfahren: GB/T 2410-08 und GB 9639-88.",
+    "conclusion": "Unter den berichteten Bedingungen bleiben optische, mechanische, Heißsiegel- und Reibungseigenschaften im Wesentlichen vergleichbar mit der Folie ohne Zusatz. Ergebnisse sind formulierungs- und prozessabhängig."
+  },
+  "compliance": {
+    "kicker": "04 / NACHWEISE",
+    "title": "Aussagen sind mit Dokumenten besser.",
+    "intro": "Drei SGS-Berichte decken Gesamtfluor-Screening, 671 gezielte PFAS-Analyten und die zehn RoHS-beschränkte Stoffe ab. Alle beziehen sich auf dieselbe eingesandte Probencharge.",
+    "cards": [
+      { "id": "pfas", "metric": "671", "title": "Gezielte PFAS-Analyten", "result": "Alle gelisteten Analyten: ND", "method": "Optimierte EN 17681-1:2025 · LC/GC-MS-Verfahren", "link": "Bericht ansehen" },
+      { "id": "fluorine", "metric": "ND", "title": "Gesamtfluor-Screening", "result": "Unter MDL von 20 mg/kg · Grenzwert 50 mg/kg", "method": "EN 14582:2016 · Ionenchromatographie", "link": "Bericht ansehen" },
+      { "id": "rohs", "metric": "10 / ND", "title": "RoHS-beschränkte Stoffe", "result": "Bestanden · alle 10 Stoffe ND", "method": "IEC-62321-Reihe · ICP-OES/AAS, UV-Vis, GC-MS", "link": "Bericht ansehen" }
+    ],
+    "declarationTitle": "Weitere Angaben im Datenblatt",
+    "declarations": ["REACH (EG) 1907/2006", "Keine SVHC", "Qualitätsstandard Q/JN 001-2024"],
+    "noteTitle": "ND richtig einordnen.",
+    "note": "ND bedeutet unter der Nachweisgrenze des Verfahrens nicht nachgewiesen – nicht absolut null. Ergebnisse gelten nur für die geprüfte Probe und den Berichtsumfang. Dies sind Prüfberichte, keine Produktzertifizierungen oder Zulassungen für sämtliche Endmärkte."
+  },
+  "process": {
+    "kicker": "05 / IN DER PRODUKTION",
+    "title": "Sauber starten. Auf die Folie einstellen.",
+    "intro": "Nutzen Sie das Leistungsdatenblatt als Ausgangspunkt und stimmen Sie Dosierung und Prozess auf Anlage, Geschwindigkeit, Temperatur und Folienoberfläche ab.",
+    "steps": [
+      { "title": "Spülen und reinigen", "text": "Extruder gründlich spülen und den Düsenkopf reinigen, bevor das Masterbatch zugegeben wird." },
+      { "title": "Mischen", "text": "Im gewählten Verhältnis mit verträglichem Harz mischen. Die Mischung für beste Ergebnisse innerhalb von 24 Stunden verarbeiten." },
+      { "title": "Anlage konditionieren", "text": "Bei Druck- oder Heißsiegelanforderungen mit 2 % beginnen und mindestens 2 Stunden fahren." },
+      { "title": "Optimieren", "text": "Folienoberfläche prüfen und Dosierung an die realen Prozessbedingungen anpassen. Weiterverarbeitung in eigenen Versuchen bestätigen." }
+    ],
+    "packTitle": "Verpackung und Lagerung",
+    "pack": [
+      { "value": "25 kg", "label": "Papier-Kunststoff-Verbundsack" },
+      { "value": "12 Monate", "label": "Bei empfohlener Lagerung" },
+      { "value": "Kühl und trocken", "label": "Vor Sonne, Regen und Verunreinigung schützen" }
+    ],
+    "note": "Nur für industrielle Anwendungen. Eignung für die vorgesehene Formulierung und Endanwendung vor der Produktion bestätigen."
+  },
+  "resources": {
+    "kicker": "06 / DOKUMENTENBIBLIOTHEK",
+    "title": "Die technische Dokumentation zum Mitnehmen.",
+    "intro": "Original-Produktunterlagen und SGS-Berichte auf Chinesisch und Englisch – bereit für Ihre interne Prüfung.",
+    "primaryBadge": "HAUPTDOKUMENT",
+    "tdsTitle": "Technisches Datenblatt",
+    "tdsDescription": "Physikalische Eigenschaften, Dosierung, Verarbeitung, Corona-Daten, Lagerung und Sicherheit.",
+    "performanceTitle": "Leistungsdatenblatt",
+    "performanceDescription": "Folienvergleich, Corona-Abnahme und Leitfaden zur Anfangsdosierung.",
+    "download": "Herunterladen",
+    "downloadEn": "Englisches PDF",
+    "downloadCn": "中文 PDF",
+    "reportsTitle": "SGS-Prüfberichte",
+    "dateLabel": "Ausgestellt",
+    "sourceNoteTitle": "Hinweis zu Quellen und Spezifikation",
+    "sourceNote": "Das chinesische Datenblatt nennt Feuchtigkeit <500 ppm, das englische ≤2000 ppm. Die Quellen unterscheiden sich. Lassen Sie die aktuelle Spezifikation vor dem Kauf vom Hersteller bestätigen. Die PDFs bleiben in der Originalsprache Chinesisch oder Englisch.",
+    "safetyTitle": "Anwendungsgrenze",
+    "safety": "Nur für industrielle Anwendungen. Nicht für Lebensmittelkontakt oder medizinische Implantate geeignet."
+  },
+  "contact": {
+    "kicker": "07 / TECHNISCHE ANFRAGE",
+    "title": "Ihr Prozess im Mittelpunkt.",
+    "intro": "Erstellen Sie eine kompakte Anfrage für Ihren POLYTREND-Kontakt. Folienaufbau, Anlage und Verarbeitungsproblem machen das technische Gespräch produktiver.",
+    "companyLabel": "HERSTELLER",
+    "manufacturer": "Foshan Polytrend New Material Co., Ltd.",
+    "formTitle": "Technische Anfrage erstellen",
+    "name": "Name",
+    "namePlaceholder": "Ihr Name",
+    "company": "Unternehmen",
+    "companyPlaceholder": "Unternehmensname",
+    "region": "Land / Region",
+    "regionPlaceholder": "z. B. Deutschland",
+    "application": "Anwendungsbereich",
+    "process": "Verfahren",
+    "resin": "Harzsystem",
+    "resinPlaceholder": "z. B. PE-Mischung",
+    "challenge": "Verarbeitungsproblem",
+    "challengePlaceholder": "Düsenbelag, Haifischhaut, angestrebter Folienaufbau, Linienbedingungen…",
+    "optional": "optional",
+    "selectOption": "Bitte auswählen",
+    "processOptions": {
+      "blown": "Blasfolie",
+      "cast": "Gießfolie",
+      "pipe": "Rohrextrusion",
+      "wire": "Drähte und Kabel",
+      "other": "Sonstiges"
+    },
+    "submit": "Anfrage erstellen",
+    "privacy": "Es wird nichts gesendet oder gespeichert. Erstellen Sie eine Zusammenfassung und kopieren Sie sie in Ihren üblichen Kontaktkanal.",
+    "resultTitle": "Ihre Anfrage ist bereit",
+    "copy": "Anfrage kopieren",
+    "copied": "In die Zwischenablage kopiert.",
+    "copyFallback": "Markieren Sie den Text und kopieren Sie ihn manuell.",
+    "applicationNote": "Anwendungshinweis",
+    "briefTitle": "TTK-3700E — Technische Anfrage",
+    "generatedNote": "Lokal erstellt; nicht übermittelt."
+  },
+  "footer": {
+    "tagline": "PFAS-freies prozessunterstützendes Masterbatch.",
+    "copyright": "© 2026 Foshan Polytrend New Material Co., Ltd.",
+    "backToTop": "Nach oben"
+  }
+}
