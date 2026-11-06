@@ -9,7 +9,7 @@
     "applications": "Anwendungen",
     "performance": "Leistungsdaten",
     "resources": "Dokumente",
-    "contact": "Anfrage erstellen",
+    "contact": "Kontakt",
     "menu": "Menü"
   },
   "hero": {
@@ -214,42 +214,10 @@
     "safety": "Nur für industrielle Anwendungen. Nicht für Lebensmittelkontakt oder medizinische Implantate geeignet."
   },
   "contact": {
-    "kicker": "07 / TECHNISCHE ANFRAGE",
     "title": "Ihr Prozess im Mittelpunkt.",
-    "intro": "Erstellen Sie eine kompakte Anfrage für Ihren POLYTREND-Kontakt. Folienaufbau, Anlage und Verarbeitungsproblem machen das technische Gespräch produktiver.",
+    "intro": "Kontaktieren Sie POLYTREND direkt mit Folienaufbau, Anlage und Verarbeitungsproblem. Wählen Sie WhatsApp oder E-Mail, prüfen Sie Ihre Nachricht und bestätigen Sie das Senden.",
     "companyLabel": "HERSTELLER",
-    "manufacturer": "Foshan Polytrend New Material Co., Ltd.",
-    "formTitle": "Technische Anfrage erstellen",
-    "name": "Name",
-    "namePlaceholder": "Ihr Name",
-    "company": "Unternehmen",
-    "companyPlaceholder": "Unternehmensname",
-    "region": "Land / Region",
-    "regionPlaceholder": "z. B. Deutschland",
-    "application": "Anwendungsbereich",
-    "process": "Verfahren",
-    "resin": "Harzsystem",
-    "resinPlaceholder": "z. B. PE-Mischung",
-    "challenge": "Verarbeitungsproblem",
-    "challengePlaceholder": "Düsenbelag, Haifischhaut, angestrebter Folienaufbau, Linienbedingungen…",
-    "optional": "optional",
-    "selectOption": "Bitte auswählen",
-    "processOptions": {
-      "blown": "Blasfolie",
-      "cast": "Gießfolie",
-      "pipe": "Rohrextrusion",
-      "wire": "Drähte und Kabel",
-      "other": "Sonstiges"
-    },
-    "submit": "Anfrage erstellen",
-    "privacy": "Es wird nichts gesendet oder gespeichert. Erstellen Sie eine Zusammenfassung und kopieren Sie sie in Ihren üblichen Kontaktkanal.",
-    "resultTitle": "Ihre Anfrage ist bereit",
-    "copy": "Anfrage kopieren",
-    "copied": "In die Zwischenablage kopiert.",
-    "copyFallback": "Markieren Sie den Text und kopieren Sie ihn manuell.",
-    "applicationNote": "Anwendungshinweis",
-    "briefTitle": "TTK-3700E — Technische Anfrage",
-    "generatedNote": "Lokal erstellt; nicht übermittelt."
+    "manufacturer": "Foshan Polytrend New Material Co., Ltd."
   },
   "footer": {
     "tagline": "PFAS-freies prozessunterstützendes Masterbatch.",

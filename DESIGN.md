@@ -17,6 +17,8 @@ colors:
   qualification: "#85450f"
   qualification-soft: "#fff0df"
   result-positive: "#25623f"
+  whatsapp: "#147d64"
+  whatsapp-hover: "#0f684f"
   scene-hygiene: "#0d775f"
   scene-medical: "#4e6173"
 typography:
@@ -102,8 +104,26 @@ components:
     typography: "{typography.label}"
     rounded: "{rounded.sm}"
     padding: "11px 15px"
-  button-dark:
-    backgroundColor: "{colors.ink}"
+  button-whatsapp:
+    backgroundColor: "{colors.whatsapp}"
+    textColor: "{colors.surface}"
+    typography: "{typography.label}"
+    rounded: "{rounded.sm}"
+    padding: "11px 15px"
+  button-whatsapp-hover:
+    backgroundColor: "{colors.whatsapp-hover}"
+    textColor: "{colors.surface}"
+    typography: "{typography.label}"
+    rounded: "{rounded.sm}"
+    padding: "11px 15px"
+  button-email:
+    backgroundColor: "{colors.primary}"
+    textColor: "{colors.surface}"
+    typography: "{typography.label}"
+    rounded: "{rounded.sm}"
+    padding: "11px 15px"
+  button-email-hover:
+    backgroundColor: "{colors.primary-hover}"
     textColor: "{colors.surface}"
     typography: "{typography.label}"
     rounded: "{rounded.sm}"
@@ -125,17 +145,16 @@ components:
     typography: "{typography.label}"
     rounded: "{rounded.md}"
     padding: "0"
+  scenario-panel:
+    backgroundColor: "#f5fbf8"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.lg}"
+    padding: "22px"
   spec-card:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.ink}"
     rounded: "{rounded.lg}"
     padding: "24px"
-  field-input:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.ink}"
-    typography: "{typography.body-small}"
-    rounded: "{rounded.sm}"
-    padding: "10px 12px"
   badge-qualification:
     backgroundColor: "{colors.surface}"
     textColor: "{colors.qualification}"
@@ -171,15 +190,15 @@ Density comes from aligned grids, fine rules and reusable 12px functional text r
 - Archivo variable Latin type with native CJK fallbacks and locale-specific line breaking.
 - Compact grids, 1px rules, shallow 6–12px radii and no persistent shadows.
 - Real scene, sample and report imagery with traceable provenance.
-- Keyboard-operable scene tabs, original PDF downloads and a local-only technical brief.
+- Keyboard-operable scene tabs, original PDF downloads and direct WhatsApp/email contact.
 
 ## Colors
 
-The palette is deliberately cool and procedural; semantic orange and green appear only where a qualification or measured result needs to be distinguished from navigation and product data.
+The palette is deliberately cool and procedural; semantic orange and green appear only where a qualification, measured result or specific contact channel needs to be distinguished from navigation and product data.
 
 ### Primary
-- **Cobalt Action** (`{colors.primary}`): Buttons, links, selected tabs, focus accents, report actions, icons and the TTK-3700E chart series.
-- **Cobalt Hover** (`{colors.primary-hover}`): Hover background for primary actions; do not use it as a second decorative accent.
+- **Cobalt Action** (`{colors.primary}`): Primary buttons, email contact, links, selected tabs, focus accents, report actions, icons and the TTK-3700E chart series.
+- **Cobalt Hover** (`{colors.primary-hover}`): Hover background for primary and email actions; do not use it as a second decorative accent.
 - **Ice Blue on Navy** (`{colors.primary-on-dark}`): Icons, values and links on navy where the stronger cobalt would lose separation.
 - **Selected Wash** (`{colors.selected}`): Selected application-tab background, always paired with a cobalt border.
 - **Focus Blue** (`{colors.focus}`): The global 3px keyboard-focus outline with a 3px offset.
@@ -188,19 +207,21 @@ The palette is deliberately cool and procedural; semantic orange and green appea
 - **Qualification Brown-Orange** (`{colors.qualification}`): Food-scene qualification headings, badges and notes; never an approval signal.
 - **Qualification Wash** (`{colors.qualification-soft}`): Safety and qualification-note backgrounds.
 - **Measured Result Green** (`{colors.result-positive}`): Report-result text only; it does not mean certification.
+- **WhatsApp Green** (`{colors.whatsapp}`): The dedicated WhatsApp contact background and border.
+- **WhatsApp Hover** (`{colors.whatsapp-hover}`): The WhatsApp contact hover state only.
 - **Hygiene Teal** (`{colors.scene-hygiene}`): The hygiene scenario's local heading, badge, focus-chip and note accent.
 - **Medical Slate** (`{colors.scene-medical}`): The medical scenario's local accent, deliberately quieter than an approval green. Protective-film scenes reuse cobalt.
 
 ### Neutral
-- **Deep Navy Ink** (`{colors.ink}`): Primary text, dark buttons, performance and proof regions, and the page theme color.
+- **Deep Navy Ink** (`{colors.ink}`): Primary text, performance and proof regions, and the page theme color.
 - **Soft Navy Ink** (`{colors.ink-soft}`): Contact and performance-result surfaces.
-- **Ice Grey Paper** (`{colors.paper}`): Body background, chart canvas and brief-generator surface.
-- **Calibrated White** (`{colors.surface}`): Navigation, cards, report pages, inputs and evidence media.
+- **Ice Grey Paper** (`{colors.paper}`): Body background and chart canvas.
+- **Calibrated White** (`{colors.surface}`): Navigation, cards, report pages and evidence media.
 - **Section Ice** (`{colors.surface-subtle}`): Application and resource bands.
 - **Muted Blue Grey** (`{colors.muted}`): Secondary reading text; do not use it for disabled-only semantics.
 - **Fine Rule Blue** (`{colors.line}`): Dividers and card borders, normally at 1px.
 
-**The Action and Qualification Rule.** Use cobalt for actions, selection and the product data series; use orange only for qualifications or safety boundaries. Neither color may turn an illustrative scene or an SGS result into an end-use approval or certification.
+**The Action and Qualification Rule.** Use cobalt for primary actions, selection, email contact and the product data series; reserve WhatsApp green for its named contact channel and orange for qualifications or safety boundaries. No action color may turn an illustrative scene or an SGS result into an end-use approval or certification.
 
 ## Typography
 
@@ -214,7 +235,7 @@ The palette is deliberately cool and procedural; semantic orange and green appea
 - **Headline** (`typography.headline`): Section titles; compact but not all-caps.
 - **Title** (`typography.title`): Repeated card and document titles.
 - **Body** (`typography.body`): Base reading text and longer introductions.
-- **Small Functional Body** (`typography.body-small`): Inputs, metadata and supporting functional text.
+- **Small Functional Body** (`typography.body-small`): Metadata and supporting functional text.
 - **Label** (`typography.label`): Buttons, tabs, badges and downloads.
 - **Navigation** (`typography.navigation`): Desktop section-navigation links.
 - **Data** (`typography.data`): Large measured or dosage values; pair with a visible unit and source context.
@@ -223,9 +244,9 @@ The palette is deliberately cool and procedural; semantic orange and green appea
 - Interfaces remain English, Simplified Chinese, Spanish, German and Japanese. Original PDFs and report previews remain Chinese or English: Simplified Chinese selects the Chinese set; the other four interfaces select the English set.
 - Chinese and Japanese headings use ordinary wrapping instead of balanced wrapping. Their section and contact headlines use a 1.28 line height; hero display tracking and size use the CJK token rather than the Latin token.
 - German navigation reduces the gap to 18px and explicitly sets link text to 12px.
-- At 680px and below, form controls use 16px to avoid mobile input zoom. Long report IDs use anywhere-wrapping, tables scroll horizontally, and download rows become stacked actions.
+- Long report IDs use anywhere-wrapping, tables scroll horizontally, and download rows become stacked actions. Direct-contact labels, notices and prefilled product introductions follow the active interface language; the confirmed number and email stay unchanged.
 
-**The Functional Floor Rule.** New functional labels, navigation, tab text, metadata, download actions, notes and form copy use at least 12px; form controls use 16px at 680px and below. The brand microtagline and legacy sub-12px declarations are not reusable type-scale steps.
+**The Functional Floor Rule.** New functional labels, navigation, tab text, metadata, download actions, contact actions and notes use at least 12px. The brand microtagline and legacy sub-12px declarations are not reusable type-scale steps.
 
 ## Layout
 
@@ -233,12 +254,12 @@ The desktop container is `min(1320px, calc(100% - 80px))`, centered. At the 1160
 
 Standard sections use the three section-spacing tokens rather than viewport-height empty space. The hero starts with 40px top padding and ends with 20px bottom padding; its two-column content uses a 1.35fr / 0.65fr grid with a 48px gap and a 338px minimum height. Four application photographs sit directly beneath it, followed by the measurement rail and proof strip.
 
-Reusable grids are explicit: section headings use 1.15fr / 0.85fr, product data uses 1.08fr / 0.92fr, the performance chart/result pair uses 1.9fr / 1fr with a 250px minimum result track, and contact uses 0.85fr / 1.15fr. Cards use 16–18px gaps in dense evidence grids; 24px is the default substantial card pad, not a universal section spacer.
+Reusable grids are explicit: section headings use 1.15fr / 0.85fr, product data uses 1.08fr / 0.92fr, the performance chart/result pair uses 1.9fr / 1fr with a 250px minimum result track, and contact uses 1.15fr / 0.85fr with a 56px gap and centered rows. Cards use 16–18px gaps in dense evidence grids; 24px is the default substantial card pad, not a universal section spacer.
 
 ### Responsive Behavior
-- **1160px and below:** Reduce gutters and major gaps, hide the navigation CTA, retain the four-column application tabs, and stack each report row's action buttons.
+- **1160px and below:** Reduce gutters and major gaps, hide the navigation CTA, retain the four-column application tabs, and stack each report row's action buttons. The contact gap reduces to 36px.
 - **960px and below:** Switch to the 68px menu header and JavaScript-driven navigation; stack hero, performance, process and contact layouts. Application panels become one column, compliance cards become one column, and the filmstrip becomes two columns. Without JavaScript, navigation remains visible and all scenario panels render in sequence.
-- **680px and below:** Use a 64px header, 52px section spacing, one-column data and form grids, full-width hero and download actions, two-column hero metrics, and two-column application tabs. Sticky packaging and multi-column report rows become static or stacked.
+- **680px and below:** Use a 64px header, 52px section spacing, one-column data grids, full-width hero and download actions, two-column hero metrics, and two-column application tabs. Sticky packaging and multi-column report rows become static or stacked.
 - **360px and below:** Reduce only the container and display sizing further; do not create a smaller functional-text tier.
 - **Print:** Hide navigation, interactive actions, contact and footer; show every scenario panel, avoid breaking panels across pages, and flatten dark hero/performance backgrounds to white.
 
@@ -248,11 +269,11 @@ The final cascade is flat by default. Earlier menu shadows are explicitly remove
 
 Focus is an outline, not a shadow. Sticky positioning is limited to the site header and desktop packaging card; the packaging card becomes static at 960px and below.
 
-**The Flat-by-Default Rule.** Do not add ambient card shadows or floating glass panels. Use a tonal surface change or a 1px rule first, and reserve outlines for keyboard and field focus.
+**The Flat-by-Default Rule.** Do not add ambient card shadows or floating glass panels. Use a tonal surface change or a 1px rule first, and reserve outlines for keyboard focus.
 
 ## Shapes
 
-Controls and report previews use a gentle 6px radius; photographic tabs, compact notes and language surfaces use 10px; evidence, chart, document and brief cards use 12px. Status badges use a 30px pill radius and scene-focus chips use 20px; circular geometry is reserved for process-step numbers.
+Controls and report previews use a gentle 6px radius; photographic tabs, compact notes and language surfaces use 10px; evidence, chart and document cards use 12px. Status badges use a 30px pill radius and scene-focus chips use 20px; circular geometry is reserved for process-step numbers.
 
 Most containers have a 1px solid border using the line token. Selected tabs replace the border color with cobalt rather than adding elevation. Images use `object-fit: cover`; report previews retain their 720 / 1018 aspect ratio, and scene panel photography uses a 4 / 3 crop on desktop.
 
@@ -262,7 +283,8 @@ Most containers have a 1px solid border using the line token. Selected tabs repl
 - **Shape and size:** Inline-flex, 45px minimum height, 6px radius, 11px 15px padding and the label type role.
 - **Primary:** Cobalt background and border with white text; hover uses the hover token. Use for the main scene exploration action.
 - **Ghost:** Transparent with navy text and a 1px `#9fb6ce` border; hover uses a pale blue fill and cobalt border. Use for the hero TDS download.
-- **Dark:** Navy with white text; hover uses `#244a72`. Use for brief generation and copying on the ice-grey form surface.
+- **WhatsApp:** Dedicated green background and border with white text; hover uses the darker WhatsApp token. Use only for the direct WhatsApp channel.
+- **Email:** Cobalt background and border with white text; hover uses the primary hover token. Use for the direct email channel.
 - **Focus and motion:** Global keyboard focus is a 3px focus-blue outline. Background, text and border transitions run for 0.2s; there is no press translation or decorative lift.
 
 ### Navigation and Language Selection
@@ -275,10 +297,10 @@ Most containers have a 1px solid border using the line token. Selected tabs repl
 - Tabs form a four-column desktop and two-column mobile grid. The selected state uses the selected wash, cobalt border and visible arrow. The default tab is the only tab stop.
 - Desktop application panels use a `1.08fr / .92fr` text-to-media split with 24px gaps and 22px padding. Panel photographs are capped at 260px to keep the five subapplication rows and process note in the same reading viewport; mobile photographs retain the 4:3 ratio with a 280px maximum height.
 - Arrow Right/Down and Left/Up move with wraparound; Home and End select the first and last tab. Activation moves focus only for keyboard navigation. Without JavaScript, tab controls disappear and every panel remains available.
-- In no-preference motion mode, the filmstrip reveals once over 0.65s with `cubic-bezier(.16, 1, .3, 1)` and a right-to-left `clip-path` expansion. Photograph hover scales to 1.025 over 0.35s. Reduced-motion mode removes smooth scrolling and reduces animation/transition durations to 0.01ms; generated-brief scrolling also becomes instant.
+- In no-preference motion mode, the filmstrip reveals once over 0.65s with `cubic-bezier(.16, 1, .3, 1)` and a right-to-left `clip-path` expansion. Photograph hover scales to 1.025 over 0.35s. Reduced-motion mode removes smooth scrolling and reduces animation/transition durations to 0.01ms.
 
 ### Evidence Media and Provenance
-- `content/media.mjs` is the scene-image dimension/source mapping; `src/assets/images/sources.json` is the canonical provenance ledger. Keep both synchronized with any replacement raster and with the copied files in `dist/assets/images/`.
+- `content/media.mjs` is the scene-image dimension/source mapping; `src/assets/images/sources.json` is the canonical provenance ledger. Keep both synchronized with any replacement raster and with the built files in `dist/assets/images/`.
 - The SGS sample is eager/high-priority in the hero. Filmstrip images are eager; in-panel scenes and report previews are lazy and asynchronously decoded. Always preserve intrinsic dimensions to limit layout movement.
 - Pexels photographs are third-party illustrative scenes. The sample is extracted from the submitted-sample report, and report previews are first-page renders of the actual local PDFs. A source link or report ID stays adjacent to the image.
 
@@ -301,28 +323,27 @@ Most containers have a 1px solid border using the line token. Selected tabs repl
 - Keep English and Chinese TDS, performance and SGS files available in resources regardless of interface language. The hero TDS and compliance previews follow the locale rule in Typography.
 - Do not restyle a report preview as a generic certificate badge. Report IDs, dates, methods, test conditions and scope notes remain adjacent to their claims.
 
-### Technical Brief Form
-- Inputs and selects have a 44px minimum height, 6px radius, white background and 1px `#bdcede` border. The main textarea starts at 96px; the generated output starts at 220px. Focus uses a cobalt border and a 2px `#b7d3f5` outline with no offset.
-- Application, process and challenge are required and use native validity reporting. Name, company, region and resin are optional. Submission generates a localized plain-text brief locally, reveals the result, scrolls it into view and focuses the output.
-- Copy first focuses and selects the output, tries the local copy path, then the secure Clipboard API with a 1200ms timeout. The status element uses `role="status"`; fallback leaves text selected for manual copying.
-- `content/channels.mjs` holds the confirmed WhatsApp number `+8613380262499`, recipient email `carwyn910@gmail.com`, and five-language channel labels and notices. The sanitized WhatsApp number creates a direct chat. The email channel uses `mailto:` with the recipient, subject and complete brief encoded into the URL; it opens the visitor's configured mail client and the visitor must press Send. No server-side delivery or automatic submission is claimed.
-- The manufacturer-area share link carries the localized product introduction, and the adjacent email link exposes the confirmed address. After brief generation, `#whatsapp-brief` and `#email-brief` receive the complete localized brief through `encodeURIComponent`. WhatsApp opens in a new tab with `rel="noopener"`; mailto uses the current context without creating a blank page. Both actions require a user click and display their destination before sending.
-- There are no backend sending, uploading, subscription or remote-success states. The site neither automatically transmits nor stores an inquiry. Confirmed recipients are explicit, while delivery remains controlled by WhatsApp or the visitor's mail client.
+### Direct Contact Channels
+- The desktop contact region uses a 1.15fr / 0.85fr grid with a 56px gap and centered rows. The gap becomes 36px at 1160px and below, and the region becomes one column at 960px and below.
+- `content/channels.mjs` holds the confirmed WhatsApp number `+8613380262499`, recipient email `carwyn910@gmail.com`, and five-language channel labels and notices. The destination remains visible: WhatsApp shows `+8613380262499`; email shows `carwyn910@gmail.com`.
+- The contact-action stack is a vertical flex column with 10px gaps. Both buttons are full width with an 18px internal gap. Their destination lines use 12px/500 text; the two channel notes use 12px text with a 1.65 line height.
+- WhatsApp opens `https://wa.me/8613380262499` in a new tab with `rel="noopener"` and a text parameter containing `TTK-3700E —` followed by the localized product introduction. Email uses `mailto:carwyn910@gmail.com` with `TTK-3700E` as subject and the same localized product introduction as body.
+- Both actions require a user click. The visitor reviews the prefilled product information and confirms sending in WhatsApp or the configured mail client. The contact region contains only these two direct actions and their notes. The site collects no information and provides no backend delivery or automatic submission.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** keep new functional text at 12px or larger and mobile form controls at 16px; treat remaining smaller declarations as debt.
+- **Do** keep new functional text at 12px or larger, including contact labels, destination details and notes; treat remaining smaller declarations as debt.
 - **Do** preserve intrinsic image dimensions, localized alternatives, loading priority and the provenance ledger whenever media changes.
 - **Do** keep report IDs, scope, method context and original Chinese/English PDFs close to the claims they support.
-- **Do** preserve keyboard tabs, visible focus, reduced motion, no-JavaScript content access and the local-only brief across all five locales.
+- **Do** preserve keyboard tabs, visible focus, reduced motion, no-JavaScript content access and direct WhatsApp/email actions across all five locales.
 - **Do** retain the documented Chinese/English TDS moisture-specification difference until the source documents themselves change.
 
 ### Don't:
 - **Don't** present Pexels scenes as customer production, TTK-3700E use, film-chemistry evidence, food-contact eligibility or medical approval.
 - **Don't** describe SGS reports as certifications, ND as absolute zero, or sample-scoped results as universal performance guarantees.
 - **Don't** turn food flexible packaging or medical packaging into approved end uses; the current TDS limits the product to industrial use and excludes food contact and medical implants.
-- **Don't** add inquiry sending, remote-success or storage claims to the technical brief; no public recipient is configured.
+- **Don't** claim that WhatsApp or email actions transmit automatically or confirm delivery; visitors must review and send in their chosen client.
 - **Don't** treat the current brand mark or custom illustrations as a verified official logo, customer endorsement or approval asset.
 - **Don't** replace inspectable media with decorative scene illustrations or introduce unoccupied viewport-height spacers.
 

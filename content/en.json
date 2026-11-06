@@ -9,7 +9,7 @@
     "applications": "Applications",
     "performance": "Performance",
     "resources": "Documents",
-    "contact": "Build a brief",
+    "contact": "Contact",
     "menu": "Menu"
   },
   "hero": {
@@ -214,42 +214,10 @@
     "safety": "For industrial use only. Not suitable for food contact or medical implant applications."
   },
   "contact": {
-    "kicker": "07 / TECHNICAL BRIEF",
     "title": "Bring your process into focus.",
-    "intro": "Create a concise brief for your POLYTREND contact. Include your film structure, equipment and processing challenge to make the technical discussion more productive.",
+    "intro": "Contact POLYTREND directly with your film structure, equipment and processing challenge. Choose WhatsApp or email, review your message and confirm before sending.",
     "companyLabel": "MANUFACTURER",
-    "manufacturer": "Foshan Polytrend New Material Co., Ltd.",
-    "formTitle": "Build your technical brief",
-    "name": "Name",
-    "namePlaceholder": "Your name",
-    "company": "Company",
-    "companyPlaceholder": "Company name",
-    "region": "Country / region",
-    "regionPlaceholder": "e.g. Germany",
-    "application": "Application sector",
-    "process": "Process",
-    "resin": "Resin system",
-    "resinPlaceholder": "e.g. PE blend",
-    "challenge": "Processing challenge",
-    "challengePlaceholder": "Die build-up, sharkskin, target film structure, line conditions…",
-    "optional": "optional",
-    "selectOption": "Select an option",
-    "processOptions": {
-      "blown": "Blown film",
-      "cast": "Cast film",
-      "pipe": "Pipe extrusion",
-      "wire": "Wire & cable",
-      "other": "Other"
-    },
-    "submit": "Generate brief",
-    "privacy": "Nothing is sent or stored. Generate a summary, then copy it to your usual contact channel.",
-    "resultTitle": "Your brief is ready",
-    "copy": "Copy brief",
-    "copied": "Copied to clipboard.",
-    "copyFallback": "Select the text and copy it manually.",
-    "applicationNote": "Application note",
-    "briefTitle": "TTK-3700E — Technical brief",
-    "generatedNote": "Generated locally; not submitted."
+    "manufacturer": "Foshan Polytrend New Material Co., Ltd."
   },
   "footer": {
     "tagline": "PFAS-free polymer processing aid masterbatch.",

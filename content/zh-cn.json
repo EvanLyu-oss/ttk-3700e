@@ -9,7 +9,7 @@
     "applications": "应用场景",
     "performance": "性能实测",
     "resources": "技术资料",
-    "contact": "生成技术需求",
+    "contact": "直接联系",
     "menu": "菜单"
   },
   "hero": {
@@ -214,42 +214,10 @@
     "safety": "仅供工业应用，不适用于食品接触和医疗植入用途。"
   },
   "contact": {
-    "kicker": "07 / 技术需求清单",
     "title": "从实际工艺开始讨论。",
-    "intro": "整理一份简明技术需求，通过您常用的渠道发给 POLYTREND 联系人。写清膜结构、设备与加工难点，让技术沟通更高效。",
+    "intro": "通过 WhatsApp 或邮件直接联系 POLYTREND，说明膜结构、设备与加工难点。发送前可核对内容，由您确认发送。",
     "companyLabel": "制造商",
-    "manufacturer": "佛山市聚能产研新材料有限公司",
-    "formTitle": "生成技术需求清单",
-    "name": "姓名",
-    "namePlaceholder": "您的姓名",
-    "company": "公司",
-    "companyPlaceholder": "公司名称",
-    "region": "国家 / 地区",
-    "regionPlaceholder": "例如：中国",
-    "application": "应用领域",
-    "process": "加工工艺",
-    "resin": "树脂体系",
-    "resinPlaceholder": "例如：PE 共混体系",
-    "challenge": "加工难点",
-    "challengePlaceholder": "模口积料、鲨鱼纹、目标膜结构、产线条件……",
-    "optional": "选填",
-    "selectOption": "请选择",
-    "processOptions": {
-      "blown": "吹膜",
-      "cast": "流延膜",
-      "pipe": "管材挤出",
-      "wire": "线材 / 线缆",
-      "other": "其他"
-    },
-    "submit": "生成需求清单",
-    "privacy": "本页面不会发送或保存信息。生成摘要后，请复制到您常用的联络渠道。",
-    "resultTitle": "需求清单已生成",
-    "copy": "复制清单",
-    "copied": "已复制到剪贴板。",
-    "copyFallback": "请选中文字并手动复制。",
-    "applicationNote": "应用提示",
-    "briefTitle": "TTK-3700E — 技术需求清单",
-    "generatedNote": "本地生成，尚未发送。"
+    "manufacturer": "佛山市聚能产研新材料有限公司"
   },
   "footer": {
     "tagline": "无氟聚合物加工助剂母粒。",

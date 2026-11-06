@@ -26,12 +26,12 @@ The product combines a 5% active-content silicone masterbatch with documented fi
 
 ## Operating Context
 
-Visitors browse product fundamentals, application scenarios, measured performance, compliance evidence, processing guidance and original PDFs. They can generate and copy a technical brief locally. No inquiry is transmitted or stored by the site. Product evaluation must remain tied to the visitor's own resin, equipment and end-use validation.
+Visitors browse product fundamentals, application scenarios, measured performance, compliance evidence, processing guidance and original PDFs. They can open a direct WhatsApp chat or a prefilled email draft. The form, brief generator and copy action were removed at the user's request; no information is collected by the site. Product evaluation must remain tied to the visitor's own resin, equipment and end-use validation.
 
 ## Capabilities and Constraints
 
 - English, Simplified Chinese, Spanish, German and Japanese interfaces; source PDFs remain Chinese or English.
-- Responsive layouts, keyboard-operable application tabs, document downloads and a local technical-brief generator must remain functional.
+- Responsive layouts, keyboard-operable application tabs, document downloads and direct email/WhatsApp actions must remain functional; there is no form or brief generator.
 - For industrial use only: the current TDS says the product is not suitable for food contact or medical implant applications.
 - Food flexible packaging and medical packaging may be discussed only as industry needs with explicit qualification boundaries, never as approved uses.
 - Test results apply to the submitted sample and report scope. ND means below the method detection limit, not absolute zero; SGS reports are not certifications.

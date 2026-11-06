@@ -119,24 +119,8 @@ function contact(t, code) {
   const w = whatsappCopy[code];
   const whatsappNumber = contactChannels.whatsappNumber.replace(/\D/g, '');
   const whatsappHref = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`TTK-3700E — ${t.hero.intro}`)}`;
-  const emailHref = `mailto:${contactChannels.email}?subject=${encodeURIComponent(c.briefTitle)}&body=${encodeURIComponent(`TTK-3700E — ${t.hero.intro}`)}`;
-  const optional = `<span class="optional">${e(c.optional)}</span>`;
-  const options = sceneOrder.map((key) => {
-    const scene = t.applications.scenes[key];
-    return `<option value="${e(key)}" data-note="${e(scene.note)}">${e(scene.tab)}</option>`;
-  }).join('');
-  const processOptions = Object.entries(c.processOptions).map(([value, label]) => `<option value="${e(value)}">${e(label)}</option>`).join('');
-  const config = {
-    briefTitle: c.briefTitle,
-    generatedNote: c.generatedNote,
-    applicationNote: c.applicationNote,
-    labels: { name: c.name, company: c.company, region: c.region, application: c.application, process: c.process, resin: c.resin, challenge: c.challenge },
-    copied: c.copied,
-    copyFallback: c.copyFallback,
-    whatsappNumber,
-    email: contactChannels.email
-  };
-  return `<section class="section contact-section" id="contact"><div class="container contact-layout"><div class="contact-copy"><p class="kicker">${e(c.kicker)}</p><h2>${e(c.title)}</h2><p>${e(c.intro)}</p><div class="manufacturer"><span>${e(c.companyLabel)}</span><strong>${e(c.manufacturer)}</strong><p>Foshan · China</p></div><a class="button button-whatsapp manufacturer-whatsapp" href="${e(whatsappHref)}" target="_blank" rel="noopener">${icon('chat')}${e(w.label)}</a><a class="manufacturer-email" href="${e(emailHref)}">${icon('mail')}${e(contactChannels.email)}</a></div><div class="brief-card"><h3>${e(c.formTitle)}</h3><form id="technical-brief"><div class="form-grid"><div class="field"><label for="brief-name">${e(c.name)} ${optional}</label><input id="brief-name" name="name" type="text" autocomplete="name" placeholder="${e(c.namePlaceholder)}" maxlength="120"></div><div class="field"><label for="brief-company">${e(c.company)} ${optional}</label><input id="brief-company" name="company" type="text" autocomplete="organization" placeholder="${e(c.companyPlaceholder)}" maxlength="160"></div><div class="field"><label for="brief-region">${e(c.region)} ${optional}</label><input id="brief-region" name="region" type="text" autocomplete="country-name" placeholder="${e(c.regionPlaceholder)}" maxlength="120"></div><div class="field"><label for="brief-resin">${e(c.resin)} ${optional}</label><input id="brief-resin" name="resin" type="text" placeholder="${e(c.resinPlaceholder)}" maxlength="180"></div><div class="field"><label for="brief-application">${e(c.application)}</label><select id="brief-application" name="application" required><option value="" selected disabled>${e(c.selectOption)}</option>${options}</select></div><div class="field"><label for="brief-process">${e(c.process)}</label><select id="brief-process" name="process" required><option value="" selected disabled>${e(c.selectOption)}</option>${processOptions}</select></div><div class="field field-full"><label for="brief-challenge">${e(c.challenge)}</label><textarea id="brief-challenge" name="challenge" rows="4" required maxlength="1800" placeholder="${e(c.challengePlaceholder)}"></textarea></div></div><button class="button button-dark form-submit" type="submit"><span>${e(c.submit)}</span>${icon('arrow')}</button><p class="form-privacy">${icon('lock')}${e(c.privacy)}</p></form><div class="brief-result" id="brief-result" hidden><label for="brief-output">${e(c.resultTitle)}</label><textarea id="brief-output" rows="12" readonly></textarea><div class="brief-result-actions"><button class="button button-dark" id="copy-brief" type="button">${icon('copy')}${e(c.copy)}</button><a class="button button-whatsapp" id="whatsapp-brief" href="${e(whatsappHref)}" target="_blank" rel="noopener">${icon('chat')}${e(w.label)}</a><a class="button button-email" id="email-brief" href="${e(emailHref)}">${icon('mail')}${e(w.emailLabel)}</a><p id="copy-status" role="status"></p></div><p class="whatsapp-note">${e(w.notice)}</p><p class="channel-note">${e(w.emailNotice)}</p></div></div></div><script type="application/json" id="brief-config">${json(config)}</script></section>`;
+  const emailHref = `mailto:${contactChannels.email}?subject=${encodeURIComponent('TTK-3700E')}&body=${encodeURIComponent(`TTK-3700E — ${t.hero.intro}`)}`;
+  return `<section class="section contact-section" id="contact"><div class="container contact-layout contact-direct"><div class="contact-copy"><h2>${e(c.title)}</h2><p>${e(c.intro)}</p><div class="manufacturer"><span>${e(c.companyLabel)}</span><strong>${e(c.manufacturer)}</strong><p>Foshan · China</p></div></div><div class="contact-actions"><a class="button button-whatsapp" href="${e(whatsappHref)}" target="_blank" rel="noopener"><span>${e(w.label)}<small>+8613380262499</small></span>${icon('chat')}</a><a class="button button-email" href="${e(emailHref)}"><span>${e(w.emailLabel)}<small>${e(contactChannels.email)}</small></span>${icon('mail')}</a><p class="channel-note">${e(w.notice)}</p><p class="channel-note">${e(w.emailNotice)}</p></div></div></section>`;
 }
 
 export function renderPage(code, t) {

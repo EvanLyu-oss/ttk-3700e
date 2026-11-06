@@ -9,7 +9,7 @@
     "applications": "用途",
     "performance": "性能データ",
     "resources": "技術資料",
-    "contact": "技術要件を作成",
+    "contact": "お問い合わせ",
     "menu": "メニュー"
   },
   "hero": {
@@ -214,42 +214,10 @@
     "safety": "工業用途専用。食品接触および医療用インプラント用途には適しません。"
   },
   "contact": {
-    "kicker": "07 / 技術要件シート",
     "title": "お客様の加工条件から始めましょう。",
-    "intro": "POLYTRENDの担当者へ共有する簡潔な要件シートを作成できます。フィルム構成、装置、加工上の課題をまとめることで、技術相談を円滑に進められます。",
+    "intro": "フィルム構成、装置、加工上の課題をWhatsAppまたはメールで直接ご相談いただけます。内容をご確認のうえ、送信してください。",
     "companyLabel": "メーカー",
-    "manufacturer": "Foshan Polytrend New Material Co., Ltd.",
-    "formTitle": "技術要件シートを作成",
-    "name": "お名前",
-    "namePlaceholder": "お名前",
-    "company": "会社名",
-    "companyPlaceholder": "会社名",
-    "region": "国 / 地域",
-    "regionPlaceholder": "例：日本",
-    "application": "用途分野",
-    "process": "加工方法",
-    "resin": "樹脂構成",
-    "resinPlaceholder": "例：PEブレンド",
-    "challenge": "加工上の課題",
-    "challengePlaceholder": "ダイ付着物、シャークスキン、目標フィルム構成、ライン条件…",
-    "optional": "任意",
-    "selectOption": "選択してください",
-    "processOptions": {
-      "blown": "インフレーションフィルム",
-      "cast": "キャストフィルム",
-      "pipe": "パイプ押出",
-      "wire": "電線・ケーブル",
-      "other": "その他"
-    },
-    "submit": "要件シートを生成",
-    "privacy": "送信・保存は行いません。生成した内容をコピーし、普段の連絡手段で共有してください。",
-    "resultTitle": "要件シートができました",
-    "copy": "内容をコピー",
-    "copied": "クリップボードにコピーしました。",
-    "copyFallback": "テキストを選択して手動でコピーしてください。",
-    "applicationNote": "用途に関する注記",
-    "briefTitle": "TTK-3700E — 技術要件シート",
-    "generatedNote": "この端末で生成されました。未送信です。"
+    "manufacturer": "Foshan Polytrend New Material Co., Ltd."
   },
   "footer": {
     "tagline": "PFASフリーのポリマー加工助剤マスターバッチ。",

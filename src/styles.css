@@ -89,8 +89,6 @@ section[id] { scroll-margin-top: 16px; }
 .button-accent:hover { background: #0d51b1; border-color: #0d51b1; }
 .button-ghost { color: var(--ink); background: transparent; border-color: #9fb6ce; }
 .button-ghost:hover { background: #e3eef9; border-color: var(--accent); }
-.button-dark { color: var(--white); background: var(--ink); border-color: var(--ink); }
-.button-dark:hover { background: #244a72; }
 .hero-proof { display: inline-flex; align-items: center; gap: 8px; margin-top: 16px; color: var(--muted); font-size: 11px; }
 .hero-proof > .icon:first-child { color: var(--accent); }
 .hero-proof > .icon:last-child { margin-left: 4px; }
@@ -322,40 +320,21 @@ html:not(.js) .scenario-panel + .scenario-panel { margin-top: 20px; }
 .resource-notes .safety-note p { color: inherit; }
 
 .contact-section { color: #f2f7fc; background: var(--ink-soft); }
-.contact-layout { display: grid; grid-template-columns: .85fr 1.15fr; align-items: start; gap: 48px; }
+.contact-layout { display: grid; grid-template-columns: 1.15fr .85fr; align-items: center; gap: 56px; }
 .contact-copy h2 { max-width: 520px; font-size: 40px; font-weight: 620; letter-spacing: -.03em; line-height: 1.12; }
-.contact-copy > p:not(.kicker) { margin-top: 20px; color: #b7c9dc; font-size: 13px; line-height: 1.8; }
+.contact-copy > p { margin-top: 20px; color: #b7c9dc; font-size: 13px; line-height: 1.8; }
 .manufacturer { max-width: 490px; margin-top: 27px; padding-top: 19px; border-top: 1px solid #38516e; }
 .manufacturer > span { color: #9fb6ce; font-size: 8px; letter-spacing: .12em; }
 .manufacturer > strong { display: block; margin: 9px 0; font-size: 13px; font-weight: 550; line-height: 1.6; }
 .manufacturer > p { color: #9fb6ce; font-size: 10px; }
-.brief-card { min-width: 0; padding: 26px; color: var(--text); background: var(--paper); border-radius: 12px; }
-.brief-card > h3 { margin-bottom: 20px; font-size: 22px; font-weight: 650; letter-spacing: -.02em; }
-.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-.field-full { grid-column: 1 / -1; }
-.field label { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 6px; font-size: 12px; font-weight: 650; }
-.optional { color: #6a7e93; font-size: 9px; font-weight: 450; }
-.field input, .field select, .field textarea { width: 100%; min-height: 44px; padding: 10px 12px; color: var(--text); background: var(--white); border: 1px solid #bdcede; border-radius: 6px; font-size: 12px; }
-.field textarea { min-height: 96px; line-height: 1.6; resize: vertical; }
-.field input::placeholder, .field textarea::placeholder { color: #667b91; opacity: 1; }
-.field input:focus, .field select:focus, .field textarea:focus { border-color: var(--accent); outline: 2px solid #b7d3f5; outline-offset: 0; }
-.form-submit { width: 100%; margin-top: 18px; }
-.form-privacy { display: flex; align-items: flex-start; gap: 7px; margin-top: 13px; color: #5d748b; font-size: 10px; line-height: 1.65; }
-.form-privacy > .icon { margin-top: 2px; }
-.brief-result { margin-top: 22px; padding-top: 20px; border-top: 1px solid #cbd9e7; }
-.brief-result > label { display: block; margin-bottom: 9px; font-size: 13px; font-weight: 650; }
-.brief-result > textarea { width: 100%; min-height: 220px; padding: 14px; color: var(--text); background: var(--white); border: 1px solid #b8cbdd; border-radius: 6px; font-family: var(--font); font-size: 12px; line-height: 1.7; resize: vertical; }
+.contact-actions { display: flex; min-width: 0; flex-direction: column; gap: 10px; }
+.contact-actions .button { width: 100%; gap: 18px; }
+.contact-actions .button small { display: block; margin-top: 2px; font-size: 12px; font-weight: 500; }
 .button-whatsapp { color: #ffffff; background: #147d64; border-color: #147d64; }
 .button-whatsapp:hover { background: #0f684f; border-color: #0f684f; }
 .button-email { color: #ffffff; background: var(--accent); border-color: var(--accent); }
 .button-email:hover { background: #0d51b1; border-color: #0d51b1; }
-.manufacturer-whatsapp { margin-top: 18px; }
-.manufacturer-email { display: inline-flex; align-items: center; gap: 7px; margin-top: 12px; color: #c7dbff; font-size: 12px; }
-.manufacturer-email:hover { color: #ffffff; }
-.brief-result-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 13px; }
-.whatsapp-note, .channel-note { margin-top: 10px; color: var(--muted); font-size: 12px; line-height: 1.65; }
-.channel-note { margin-top: 6px; }
-.brief-result-actions p { color: #416b48; font-size: 10px; line-height: 1.5; }
+.contact-actions .channel-note { margin-top: 4px; color: #b7c9dc; font-size: 12px; line-height: 1.65; }
 
 .site-footer { padding: 30px 0 20px; color: #a9bfd4; background: #0a1b30; }
 .footer-top { display: flex; align-items: center; gap: 26px; padding-bottom: 24px; border-bottom: 1px solid #2d4661; }
@@ -572,12 +551,6 @@ html:not(.js) .scenario-panel + .scenario-panel { margin-top: 20px; }
   .report-actions { flex-direction: column; }
   .resource-notes { grid-template-columns: 1fr; }
   .contact-copy h2 { font-size: 34px; }
-  .brief-card { padding: 20px; }
-  .brief-card > h3 { font-size: 21px; }
-  .form-grid { grid-template-columns: 1fr; gap: 14px; }
-  .field-full { grid-column: auto; }
-  .field input, .field select, .field textarea { font-size: 16px; }
-  .brief-result-actions { flex-direction: column; align-items: stretch; }
   .footer-top { flex-wrap: wrap; gap: 18px; }
   .footer-top > p { order: 3; width: 100%; }
   .footer-bottom { flex-direction: column; gap: 13px; }
@@ -617,9 +590,6 @@ html:not(.js) .scenario-panel + .scenario-panel { margin-top: 20px; }
 .packaging-card dt { color: #526b82; }
 .report-meta { color: #526b83; }
 .resource-notes p { color: #526a82; }
-.optional { color: #536b82; }
-.field input::placeholder, .field textarea::placeholder { color: #5b7188; }
-.form-privacy { color: #536c84; }
 .site-footer .brand-type small { color: #a9bfd4; }
 
 .nav-cta, .language-picker summary, .hero-product-line, .hero-proof, .hero-scene small,
@@ -637,8 +607,7 @@ html:not(.js) .scenario-panel + .scenario-panel { margin-top: 20px; }
 .compliance-reference > span, .compliance-reference > a, .declaration-row li,
 .evidence-note p, .process-steps p, .packaging-card dt, .process-note,
 .primary-document h3 + p, .download-link, .report-name > span, .report-meta,
-.resource-notes p, .manufacturer > span, .manufacturer > p, .form-privacy,
-.optional, .brief-result-actions p, .back-to-top, .footer-top > p,
+.resource-notes p, .manufacturer > span, .manufacturer > p, .back-to-top, .footer-top > p,
 .footer-bottom p { font-size: 12px; }
 
 .hero-product-line, .chart-overline { letter-spacing: .03em; }

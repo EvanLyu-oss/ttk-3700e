@@ -9,7 +9,7 @@
     "applications": "Aplicaciones",
     "performance": "Rendimiento",
     "resources": "Documentos",
-    "contact": "Crear consulta",
+    "contact": "Contacto",
     "menu": "Menú"
   },
   "hero": {
@@ -214,42 +214,10 @@
     "safety": "Solo para uso industrial. No apto para contacto alimentario ni para implantes médicos."
   },
   "contact": {
-    "kicker": "07 / CONSULTA TÉCNICA",
     "title": "Ponga el foco en su proceso.",
-    "intro": "Cree un resumen conciso para su contacto de POLYTREND. Incluya la estructura de la película, el equipo y el problema de procesamiento para facilitar la conversación técnica.",
+    "intro": "Contacte directamente con POLYTREND e indique la estructura de la película, el equipo y el problema de proceso. Elija WhatsApp o correo, revise el mensaje y confirme el envío.",
     "companyLabel": "FABRICANTE",
-    "manufacturer": "Foshan Polytrend New Material Co., Ltd.",
-    "formTitle": "Cree su consulta técnica",
-    "name": "Nombre",
-    "namePlaceholder": "Su nombre",
-    "company": "Empresa",
-    "companyPlaceholder": "Nombre de la empresa",
-    "region": "País / región",
-    "regionPlaceholder": "p. ej., España",
-    "application": "Sector de aplicación",
-    "process": "Proceso",
-    "resin": "Sistema de resina",
-    "resinPlaceholder": "p. ej., mezcla PE",
-    "challenge": "Problema de procesamiento",
-    "challengePlaceholder": "Acumulación en el cabezal, piel de tiburón, estructura deseada, condiciones de línea…",
-    "optional": "opcional",
-    "selectOption": "Seleccione una opción",
-    "processOptions": {
-      "blown": "Película soplada",
-      "cast": "Película de cast",
-      "pipe": "Extrusión de tuberías",
-      "wire": "Hilos y cables",
-      "other": "Otro"
-    },
-    "submit": "Generar consulta",
-    "privacy": "No se envía ni almacena nada. Genere un resumen y cópielo en su canal de contacto habitual.",
-    "resultTitle": "Su consulta está lista",
-    "copy": "Copiar consulta",
-    "copied": "Copiado al portapapeles.",
-    "copyFallback": "Seleccione el texto y cópielo manualmente.",
-    "applicationNote": "Nota de aplicación",
-    "briefTitle": "TTK-3700E — Consulta técnica",
-    "generatedNote": "Generado localmente; no enviado."
+    "manufacturer": "Foshan Polytrend New Material Co., Ltd."
   },
   "footer": {
     "tagline": "Masterbatch coadyuvante de procesamiento sin PFAS.",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-27T04:10:25Z",
+  "generatedAt": "2026-11-06T08:05:30Z",
   "title": "Design System: POLYTREND TTK-3700E",
   "extensions": {
     "colorMeta": {
@@ -94,6 +94,18 @@
         "canonical": "#25623f",
         "tonalRamp": ["oklch(15% 0.0240 155.31)", "oklch(28% 0.0532 155.31)", "oklch(41% 0.0754 155.31)", "oklch(54% 0.0857 155.31)", "oklch(67% 0.0754 155.31)", "oklch(79% 0.0532 155.31)", "oklch(89% 0.0291 155.31)", "oklch(95% 0.0103 155.31)"]
       },
+      "whatsapp": {
+        "role": "secondary",
+        "displayName": "WhatsApp Green",
+        "canonical": "#147d64",
+        "tonalRamp": ["oklch(15% 0.0273 171.49)", "oklch(28% 0.0606 171.49)", "oklch(41% 0.0859 171.49)", "oklch(54% 0.0977 171.49)", "oklch(67% 0.0859 171.49)", "oklch(79% 0.0606 171.49)", "oklch(89% 0.0332 171.49)", "oklch(95% 0.0117 171.49)"]
+      },
+      "whatsapp-hover": {
+        "role": "secondary",
+        "displayName": "WhatsApp Hover",
+        "canonical": "#0f684f",
+        "tonalRamp": ["oklch(15% 0.0248 168.12)", "oklch(28% 0.0549 168.12)", "oklch(41% 0.0780 168.12)", "oklch(54% 0.0886 168.12)", "oklch(67% 0.0780 168.12)", "oklch(79% 0.0549 168.12)", "oklch(89% 0.0301 168.12)", "oklch(95% 0.0106 168.12)"]
+      },
       "scene-hygiene": {
         "role": "secondary",
         "displayName": "Hygiene Teal",
@@ -113,7 +125,7 @@
       "headline": { "displayName": "Headline", "purpose": "Section titles." },
       "title": { "displayName": "Title", "purpose": "Repeated card and document titles." },
       "body": { "displayName": "Body", "purpose": "Base reading text and longer introductions." },
-      "body-small": { "displayName": "Small Functional Body", "purpose": "Inputs, metadata and supporting functional text." },
+      "body-small": { "displayName": "Small Functional Body", "purpose": "Metadata and supporting functional text." },
       "label": { "displayName": "Label", "purpose": "Buttons, tabs, badges and downloads." },
       "navigation": { "displayName": "Navigation", "purpose": "Desktop section-navigation links." },
       "data": { "displayName": "Data", "purpose": "Large measured or dosage values with visible units and source context." }
@@ -138,13 +150,13 @@
       {
         "name": "reduced-motion",
         "value": ".01ms",
-        "purpose": "Reduced-motion animation and transition duration; smooth scrolling and generated-brief smooth scrolling are disabled."
+        "purpose": "Reduced-motion animation and transition duration; smooth scrolling is disabled."
       }
     ],
     "breakpoints": [
       { "name": "wide-max", "value": "1160px", "purpose": "Reduced gutters and gaps; navigation CTA hidden." },
       { "name": "tablet-max", "value": "960px", "purpose": "Menu navigation and stacked primary layouts." },
-      { "name": "mobile-max", "value": "680px", "purpose": "One-column content and forms, full-width actions, 16px form controls." },
+      { "name": "mobile-max", "value": "680px", "purpose": "One-column data and resource layouts with full-width hero and download actions." },
       { "name": "narrow-max", "value": "360px", "purpose": "Narrowest gutter and display adjustments without a smaller functional-text tier." },
       { "name": "desktop-nav-min", "value": "961px", "purpose": "JavaScript media-query boundary that closes the mobile menu when entering desktop." }
     ]
@@ -167,28 +179,20 @@
       "css": ".ds-btn-ghost{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:var(--ink);background:transparent;border:1px solid #9fb6ce;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,color .2s,border-color .2s}.ds-btn-ghost:hover{background:#e3eef9;border-color:var(--accent)}.ds-btn-ghost:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
     },
     {
-      "name": "Dark Button",
-      "kind": "button",
-      "refersTo": "button-dark",
-      "description": "Navy action for local brief generation and copying on a light form surface.",
-      "html": "<button class=\"ds-btn-dark\" type=\"submit\">Generate brief <svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></button>",
-      "css": ".ds-btn-dark{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:var(--white);background:var(--ink);border:1px solid var(--ink);border-radius:6px;cursor:pointer;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;transition:background .2s,color .2s,border-color .2s}.ds-btn-dark:hover{background:#244a72}.ds-btn-dark:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
-    },
-    {
       "name": "WhatsApp Contact Button",
       "kind": "button",
       "refersTo": "button-whatsapp",
-      "description": "Deep-green user-initiated contact action that opens a direct WhatsApp chat with +8613380262499 and carries a localized product introduction or generated brief.",
-      "html": "<a class=\"ds-btn-whatsapp\" href=\"https://wa.me/8613380262499?text=TTK-3700E\" target=\"_blank\" rel=\"noopener\">Chat via WhatsApp</a>",
-      "css": ".ds-btn-whatsapp{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:#ffffff;background:#147d64;border:1px solid #147d64;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,border-color .2s}.ds-btn-whatsapp:hover{background:#0f684f;border-color:#0f684f}.ds-btn-whatsapp:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}"
+      "description": "Deep-green user-initiated action that opens a direct WhatsApp chat with +8613380262499 and the localized product introduction; the visitor confirms sending.",
+      "html": "<a class=\"ds-btn-whatsapp\" href=\"https://wa.me/8613380262499?text=TTK-3700E%20%E2%80%94%20A%20PFAS-free%20polymer%20processing%20aid%20masterbatch%20in%20an%20LDPE%20carrier%2C%20designed%20to%20reduce%20die%20build-up%20and%20melt%20fracture%20in%20polyolefin%20extrusion.\" target=\"_blank\" rel=\"noopener\"><span>Chat via WhatsApp<small>+8613380262499</small></span><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 4h16v12H9l-5 4Z\"/><path d=\"M8 8h8M8 12h5\"/></svg></a>",
+      "css": ".ds-btn-whatsapp{display:inline-flex;width:100%;min-height:45px;align-items:center;justify-content:space-between;gap:18px;padding:11px 15px;color:#ffffff;background:#147d64;border:1px solid #147d64;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,color .2s,border-color .2s}.ds-btn-whatsapp small{display:block;margin-top:2px;font-size:12px;font-weight:500}.ds-btn-whatsapp:hover{background:#0f684f;border-color:#0f684f}.ds-btn-whatsapp:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
     },
     {
-      "name": "Email Brief Button",
+      "name": "Email Contact Button",
       "kind": "button",
       "refersTo": "button-email",
-      "description": "Cobalt mailto action that opens a local draft addressed to carwyn910@gmail.com with the generated brief; no server-side delivery or sent state is claimed.",
-      "html": "<a class=\"ds-btn-email\" href=\"mailto:carwyn910@gmail.com?subject=TTK-3700E%20brief\">Send by email</a>",
-      "css": ".ds-btn-email{display:inline-flex;min-height:45px;align-items:center;justify-content:space-between;gap:20px;padding:11px 15px;color:#ffffff;background:#1565d8;border:1px solid #1565d8;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,border-color .2s}.ds-btn-email:hover{background:#0d51b1;border-color:#0d51b1}.ds-btn-email:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}"
+      "description": "Cobalt mailto action that opens a draft addressed to carwyn910@gmail.com with subject TTK-3700E and the localized product introduction; the visitor reviews and sends it.",
+      "html": "<a class=\"ds-btn-email\" href=\"mailto:carwyn910@gmail.com?subject=TTK-3700E&amp;body=TTK-3700E%20%E2%80%94%20A%20PFAS-free%20polymer%20processing%20aid%20masterbatch%20in%20an%20LDPE%20carrier%2C%20designed%20to%20reduce%20die%20build-up%20and%20melt%20fracture%20in%20polyolefin%20extrusion.\"><span>Send by email<small>carwyn910@gmail.com</small></span><svg class=\"ds-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"1\"/><path d=\"m3 6 9 7 9-7\"/></svg></a>",
+      "css": ".ds-btn-email{display:inline-flex;width:100%;min-height:45px;align-items:center;justify-content:space-between;gap:18px;padding:11px 15px;color:#ffffff;background:#1565d8;border:1px solid #1565d8;border-radius:6px;font-family:var(--font);font-size:12px;font-weight:650;line-height:1.4;text-decoration:none;transition:background .2s,color .2s,border-color .2s}.ds-btn-email small{display:block;margin-top:2px;font-size:12px;font-weight:500}.ds-btn-email:hover{background:#0d51b1;border-color:#0d51b1}.ds-btn-email:focus-visible{outline:3px solid #3b82e6;outline-offset:3px}.ds-icon{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}"
     },
     {
       "name": "Section Navigation",
@@ -212,7 +216,7 @@
       "refersTo": "scenario-panel",
       "description": "Compact application detail with a text-forward grid and a capped real-scene photograph so subapplications and process guidance remain in the same reading viewport.",
       "html": "<article class=\"ds-scenario-panel\"><div>Application details and subapplication rows</div><figure><img src=\"assets/images/hygiene.jpg\" width=\"1200\" height=\"900\" alt=\"Diapers arranged in a basket\"><figcaption>Illustrative industry photograph</figcaption></figure></article>",
-      "css": ".ds-scenario-panel{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);gap:24px;padding:22px;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:12px}.ds-scenario-panel img{width:100%;height:260px;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line);border-radius:10px}@media(max-width:960px){.ds-scenario-panel{grid-template-columns:1fr}}@media(max-width:680px){.ds-scenario-panel img{height:auto;max-height:280px}}"
+      "css": ".ds-scenario-panel{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);gap:24px;padding:22px;color:var(--ink);background:#f5fbf8;border:1px solid var(--line);border-radius:12px}.ds-scenario-panel img{width:100%;height:260px;aspect-ratio:4/3;object-fit:cover;border:1px solid var(--line);border-radius:10px}@media(max-width:960px){.ds-scenario-panel{grid-template-columns:1fr}}@media(max-width:680px){.ds-scenario-panel img{height:auto;max-height:280px}}"
     },
     {
       "name": "Specification Card",
@@ -221,14 +225,6 @@
       "description": "Flat technical-data card with ruled definition rows and tabular values.",
       "html": "<article class=\"ds-spec-card\"><div class=\"ds-spec-head\"><h3>Technical data</h3><span>TTK-3700E</span></div><dl><div><dt>Active content</dt><dd>5.00%</dd></div><div><dt>Carrier resin</dt><dd>LDPE</dd></div><div><dt>Form</dt><dd>Milky-white pellets</dd></div></dl></article>",
       "css": ".ds-spec-card{padding:24px;color:var(--ink);background:var(--white);border:1px solid var(--line);border-radius:12px;font-family:var(--font)}.ds-spec-head{display:flex;align-items:center;justify-content:space-between;gap:16px}.ds-spec-head h3{margin:0;font-size:21px;font-weight:650;letter-spacing:-.02em}.ds-spec-head span{color:var(--muted);font-size:12px;letter-spacing:.08em}.ds-spec-card dl{margin:17px 0 12px;font-variant-numeric:tabular-nums}.ds-spec-card dl>div{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;padding:10px 0;border-bottom:1px solid #e2eaf2}.ds-spec-card dt{color:var(--muted);font-size:12px}.ds-spec-card dd{margin:0;font-size:12px;font-weight:650;text-align:right}"
-    },
-    {
-      "name": "Text Input",
-      "kind": "input",
-      "refersTo": "field-input",
-      "description": "White technical-brief input with a cobalt focus border and light-blue focus outline.",
-      "html": "<input class=\"ds-field-input\" type=\"text\" name=\"resin\" aria-label=\"Resin\" autocomplete=\"off\">",
-      "css": ".ds-field-input{width:100%;min-height:44px;padding:10px 12px;color:var(--text);background:var(--white);border:1px solid #bdcede;border-radius:6px;font-family:var(--font);font-size:12px;line-height:1.55;caret-color:var(--accent)}.ds-field-input:focus,.ds-field-input:focus-visible{border-color:var(--accent);outline:2px solid #b7d3f5;outline-offset:0}@media(max-width:680px){.ds-field-input{font-size:16px}}"
     },
     {
       "name": "Qualification Badge",
@@ -263,37 +259,37 @@
       "Archivo variable Latin type with native CJK fallbacks and locale-specific line breaking.",
       "Compact grids, 1px rules, shallow 6–12px radii and no persistent shadows.",
       "Real scene, sample and report imagery with traceable provenance.",
-      "Keyboard-operable scene tabs, original PDF downloads and a local-only technical brief."
+      "Keyboard-operable scene tabs, original PDF downloads and direct WhatsApp/email contact."
     ],
     "rules": [
       {
         "name": "The Action and Qualification Rule",
-        "body": "Use cobalt for actions, selection and the product data series; use orange only for qualifications or safety boundaries. Neither color may turn an illustrative scene or an SGS result into an end-use approval or certification.",
+        "body": "Use cobalt for primary actions, selection, email contact and the product data series; reserve WhatsApp green for its named contact channel and orange for qualifications or safety boundaries. No action color may turn an illustrative scene or an SGS result into an end-use approval or certification.",
         "section": "colors"
       },
       {
         "name": "The Functional Floor Rule",
-        "body": "New functional labels, navigation, tab text, metadata, download actions, notes and form copy use at least 12px; form controls use 16px at 680px and below. The brand microtagline and legacy sub-12px declarations are not reusable type-scale steps.",
+        "body": "New functional labels, navigation, tab text, metadata, download actions, contact actions and notes use at least 12px. The brand microtagline and legacy sub-12px declarations are not reusable type-scale steps.",
         "section": "typography"
       },
       {
         "name": "The Flat-by-Default Rule",
-        "body": "Do not add ambient card shadows or floating glass panels. Use a tonal surface change or a 1px rule first, and reserve outlines for keyboard and field focus.",
+        "body": "Do not add ambient card shadows or floating glass panels. Use a tonal surface change or a 1px rule first, and reserve outlines for keyboard focus.",
         "section": "elevation"
       }
     ],
     "dos": [
-      "Do keep new functional text at 12px or larger and mobile form controls at 16px; treat remaining smaller declarations as debt.",
+      "Do keep new functional text at 12px or larger, including contact labels, destination details and notes; treat remaining smaller declarations as debt.",
       "Do preserve intrinsic image dimensions, localized alternatives, loading priority and the provenance ledger whenever media changes.",
       "Do keep report IDs, scope, method context and original Chinese/English PDFs close to the claims they support.",
-      "Do preserve keyboard tabs, visible focus, reduced motion, no-JavaScript content access and the local-only brief across all five locales.",
+      "Do preserve keyboard tabs, visible focus, reduced motion, no-JavaScript content access and direct WhatsApp/email actions across all five locales.",
       "Do retain the documented Chinese/English TDS moisture-specification difference until the source documents themselves change."
     ],
     "donts": [
       "Don't present Pexels scenes as customer production, TTK-3700E use, film-chemistry evidence, food-contact eligibility or medical approval.",
       "Don't describe SGS reports as certifications, ND as absolute zero, or sample-scoped results as universal performance guarantees.",
       "Don't turn food flexible packaging or medical packaging into approved end uses; the current TDS limits the product to industrial use and excludes food contact and medical implants.",
-      "Don't add inquiry sending, remote-success or storage claims to the technical brief; no public recipient is configured.",
+      "Don't claim that WhatsApp or email actions transmit automatically or confirm delivery; visitors must review and send in their chosen client.",
       "Don't treat the current brand mark or custom illustrations as a verified official logo, customer endorsement or approval asset.",
       "Don't replace inspectable media with decorative scene illustrations or introduce unoccupied viewport-height spacers."
     ]
